@@ -1,0 +1,4482 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Script version="4.0" platform="Desktop">
+<Node type="Main" expand="True">
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbifgfejbhaf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbifgfejghee</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfbifgfgeffcb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAE8AAAAZCAYAAABw43NsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG1SURBVFhH7ZbbkcMgDEWpinroxsXQC7XQAYvADwnEY6xk92P1cWYSW1jicMeJiTEm5R0qT4DKE6DyBKg8ASpPgMoToPIEqDwBKk/AQp5PzphkGOwRUvQuGef7dXAd1Tr/3PPOpiOgWg683h4poHvc+nBY0g9T5kS1hXAka1zyMaTD5rqmR9n3ec07Oj9GljxO3j3YdQ0GfDa8lgcH9qwvYlCPLfkXeb5eHsxzPb9+dp2gRx6tp2zJwwOTk+DkMQODgGvNavNQS9fT4cXJI/Odz+4OHMtr1pTaOsMLeWh4Tp4weVj0xbD/CbdmhHftbPU7PbRGXve9IpfHnTC6DuCNfUse7keYSsCpzvfuQ5/VPXw+eUJoAgC8qbX8OQsp937aOuj7a/JgKCYFhdXmQdZTU1KFenT92R49Nc2rRMF3eP6qrjKXNx0uP+xF8raSU96bZ58uARvrh3CyGinQO6eMyuuTCGwlb8hXkjeHkzd759FXQPtO5RMF/yjIoeV9vv61HTKV1w/1CUby2F9bvOkbPkUzRmn/g+QN/vVvIk1eYTh3D6RwNK9M3j9H5QlQeQJU3mti+gG+fVcRcFmgDwAAAABJRU5ErkJggg==</Image>
+<TemplateX>66</TemplateX>
+<TemplateY>439</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>106</X>
+<Y>17</Y>
+<Touch>True</Touch>
+<Text><![CDATA["({LeftCtrl}A)"+@Var_Save_Path:string@ + @i:int@.ToString().Replace("1","EVA").Replace("2","HD").Replace("3","LD").Replace("4","LLD").Replace("5","PP3").Replace("6","PPA").Replace("7","PPB")]]></Text>
+<TextType><![CDATA[True]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbifgfffbfgc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[titel]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbifgfffbfhi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[titel_111]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[1234567890]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbifgfffbfjd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbifgfffbgaj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[sub]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@titel_111:string@.Substring(5,2);]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbifgfffbgce</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbedffdhife</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[반올림]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[DouVal]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[double]]></Type>
+<Value><![CDATA[12.34d]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedffdhiha</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[DouVal_2]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[double]]></Type>
+<Value><![CDATA[Math.Round($DouVal$);]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedffdhiif</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[DouVal_1]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[double]]></Type>
+<Value><![CDATA[Math.Ceiling($DouVal$);]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedffdhjab</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[DouVal_3]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[double]]></Type>
+<Value><![CDATA[Math.Truncate($DouVal$);]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedffdhjbg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjcabfeddff</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[문자 채우기]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[value]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[100]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjcabddiaed</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[value222]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToString(@value:string@).PadLeft(10, '0')]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjcabdheeah</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[value333]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@value:string@.PadLeft(5, '0')]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjcabgcbheg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfbjcicfjjcbe</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAFAAAAAWCAYAAABXEBvcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEnSURBVFhH7ZKxDsNACEPv/z+1W5esrRKJyLIMx4UsaRmeFIyBk5Xxem+f5jodYJEOsEgHWKQDLNIBFgkDHGO4WH82wz2sFavz7GfYbzP4rXzswR5S+gN5ceUhO9V5ZrbP6qwP61NXIoKDs6XqSDTPXJnftQjlV7Wne7VpPxEgax7RPPcyt/b61gBNQ7iHNaP6qHn9CPZizZr3HWosMNHSvTZQv4rag1r1zsr+mffUWGCipd6RCPYjqo8a923nDG9eaVZnvIfGAoND3rEsM798YHB/ldl+rLPeR/+BpkUof1SblvaxiNgihfXVDGsr4A3epXYrzcj4PU/Gd+hKzBId92D/Cmqe9zPstxmle0T+UoBPB4P2UHPIXwd4Bx1gkQ6wSAdYYvt8AaESk2pTgu+eAAAAAElFTkSuQmCC</Image>
+<TemplateX>283</TemplateX>
+<TemplateY>372</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>175</X>
+<Y>9</Y>
+<Touch>True</Touch>
+<Text><![CDATA["({LeftCtrl}A)" +@Var_Save_Path:string@+@Var_Save_ExcelName:string@  +"{openparens}" +"sales"+ "{closeparens}"+"_"+ @Var_Date:string@ + "{Enter}"]]></Text>
+<TextType><![CDATA[True]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgagiccded</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[날짜 관련 테스트]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgagicjcha</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[월  마지막날]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[월]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.Month]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedeacgejb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[년도]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.Year]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedeaffdic</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbedeagdgjh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[last_day2]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.DaysInMonth ($년도$,$월$);]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedeajjagc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[마지막 날짜]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.DaysInMonth(2018,03)]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgagifcada</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[마지막 날짜_1]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.DaysInMonth(DateTime.Parse(@Today_1:string@))]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgahdgjgjc</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Today_3]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.ToString("yyyy,MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgajbgiicf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgajbjgied</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[시간 관련]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[현재시간]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgbaceebcb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[현재일자_1]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Today]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgajbjbdcb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbbhhdajjjg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[오늘날짜_일]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.AddDays(0).Day]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbhhcihabh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[월]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.Month]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbhhdaddad</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[년도]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.Year]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbhhddjdig</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbbhhfegjcj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[입찰시작일시+10분후]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[10분후_시]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.AddMinutes(10).ToString("HH")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbhhfegjef</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[10분후_분]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.AddMinutes(10).ToString("mm")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbhhfegjga</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfcbbhhfegjhg</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[시]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAFEAAAAeCAYAAABUgfKPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHcSURBVGhD7ZYxjsMgEEV9rCQ3smQpd0kRKedwkSYn2CZNmtxiq1SRWGMzMIMZA2a2m+JJGzzA5zFxtvv8fo3ShkoUQCUKoBIFUIkCqEQBVKIAKlEAlSiAShRgQ+LDDF1nOscwhmf3fho73MyL1FuWObj287yZYzzmeZvroTPHy5uMz+v3D//5dTn5HARbw60/nkkt3oPPX5YnpvuZNlg/cAJhogsEQeMQ7CFtjYBET2qtkrFM/kCjRCJz3vRkrk8oXBaHhdgQLjwJ4cYWsWdzx/W1oZ2M1PpE4lyH91qaAub9i8RVN+6RCAfsz/RQqUMCIDgKmA6NXy9IELkklzne02XLdmJVnkC6Eyu/zvNn9NxLt4fdkBheA7RD16GDwGF0f8P+3PouM4C7i5NYnofCvBMt+OZpSC5EEu6QaNyutzqkD40uBOZCTeaSqijOs0b0X5zlYGnIIV3gEGy5MKjJhS6F/cGz4CZozLMpcQ6R6Lh50d2d6Dornh91wjo0/WbEkEvKQPPvzRPIS4zCeji5qdqJ6kMWdyLtGkxtfo52iZwsbrz48DyiEitkcbRLjG8QqOzEGrmiEuMcHvpDtUWTRKUMlSiAShRAJQqgEgVQiQKoRAFUogAqsZmv+QN31g294opHxgAAAABJRU5ErkJggg==</Image>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>280</X>
+<Y>11</Y>
+<Touch>True</Touch>
+<Text><![CDATA["{Home}({LeftShift}{End})" + $10분후_시$]]></Text>
+<TextType><![CDATA[False]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfcbbhhfegjjb</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[분]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAFgAAAApCAYAAACx6+5QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIESURBVGhD7ZY9SgRBEIXnKupRFC8igtcQBE9hYOAdDExMjUxMvIGB4CZGwupbeMvbsrqne2ZqEazgY7Zreurnm97V4fPja53EkYKDScHBpOBgUnAwKTiYFBxMCg4mBQeTgoNJwcGk4GBScDApOJgUHMwswcMwbLm9udvGT45PN+he8PL8+muvF1MOD47W52cXOzGb/+ryeqcXgudK+bHWvcjBe6X+QUs/yqjgp5/iXpwD4PPD/eNmjSvWtiD26TAEzS4hmLS+QBtj/1yX8oPFBFOsvQI2hEYZ08KlgnxOTwuHJZoT9AwEQaX8Kpj7uAb6XCk/WEwwgFSi8SmCORTiOrAngPBe60DoAfsBY8xBsLYntvUE9/YDJp1goIXYIK5Y24L4rPcBZdjhFP1t1bg3EPchD67Ij3jpBbIuafkN7umHTP4NBtqgDlAraCkJ0Dhy1QTwZeEZ3cOYl7+Xnn6UUcFLwqE9VACH0aZ1T22gHvAN1B4UzT+nn1mC8Rb5VVRqBS3eCfOetyfIy4/7JTT/GDa/V6+lHzBbsB2EeAUR8/aCOQJqeC+QtJ7gMWr97PUE1xrpoSfPmGCv/15q/fyZE2z/9alRG8gy9QQDu79ErZ+9/pH7j6TgYFJwMCk4mBQcTAoOJgUHk4KDScHBpOBgUnAwKTiYFBxMCg5meH9brZMoVutvM6+pOX2OXC0AAAAASUVORK5CYII=</Image>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>337</X>
+<Y>15</Y>
+<Touch>True</Touch>
+<Text><![CDATA["{Home}({LeftShift}{End})" + $10분후_분$]]></Text>
+<TextType><![CDATA[False]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgbbdgbfcb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[사용가능]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[3개월전]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Today.AddMonths(-3).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgbbajahhe</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[CurDae_1]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Parse(@3개월전:string@).AddDays(-10).ToString("yyyy-MM-dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgbbecccaf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgbdgbcccj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[BeginDay]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Today.ToString("yyyy-MM-01")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgbdcafddd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[LastDay]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@BeginDay:string@).AddMonths(1).AddDays(-1).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgbdcfibjd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Month_FirstDay]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@BeginDay:string@).AddMonths(-1).ToString("yyyy-MM-dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgbddhadbi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Month_1]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@BeginDay:string@).AddMonths(1).ToString("MM")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgbdhacjfi</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgbighhhga</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[전월1일/마지막일====> 사용]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Date]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Today.ToString("yyyy-MM-01")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgbighhhhf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Month_FirstDay]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@Var_Date:string@).AddMonths(-1).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgbighhhjb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Month_LastDay]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@Month_FirstDay:string@).AddMonths(1).AddDays(-1).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgbighhiag</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_NextWeek]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day).AddDays(7).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjhichjadej</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[7일후]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.AddDays(7).ToString("yyyy-MM-dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjhichjjjch</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbbfgeegcga</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[당월1-말일 / 전원1일-말일]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Today]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.ToString("yyyyMMdd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbfgeegchf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Date]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Today.ToString("yyyy-MM-01")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbfgeegcjb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Month_FirstDay]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@Var_Date:string@).AddMonths(-1).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbfgeegdag</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Month_LastDay]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@Month_FirstDay:string@).AddMonths(1).AddDays(-1).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbfgeegdcc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[7일후]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.AddDays(7).ToString("yyyy-MM-dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbfgeegddi</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Month_FirstDay2]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@Var_Date:string@).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbfgeegdgj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Month_LastDay2]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@Month_FirstDay:string@).AddMonths(2).AddDays(-1).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbfgeegdie</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbeceeachdb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[토요일/일요일 찾기]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[dt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeceebcefa</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[dt_Week]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@dt:string@).DayOfWeek.ToString()]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbecejeabgh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[Convert.ToString(@dt_Week:string@).Equals("Saturday")]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbechaigbdf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[dt_work]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@dt:string@).AddDays(2).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbechaigbfa</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[Convert.ToString(@dt_Week:string@).Equals("Sunday")]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbecidddjjd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[dt_work]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@dt:string@).AddDays(1).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeciddeaaj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbedhjjehgd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[토요일/일요일 찾기2]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_ToDay2]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Today.ToString("yyyy-MM-01")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedhjjehhj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[dt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.ToString("yyyy-MM-dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedhjjehje</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[dt_Week]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@dt:string@).DayOfWeek.ToString()]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedhjjeiba</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[Convert.ToString(@dt_Week:string@).Equals("Saturday")]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbedhjjeicf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[dt_work]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@dt:string@).AddDays(2).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedhjjeieb</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[dt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@dt:string@).AddDays(2).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedhjjeifh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[Convert.ToString(@dt_Week:string@).Equals("Sunday")]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbedhjjeihc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[dt_work]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@dt:string@).AddDays(1).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedhjjeiii</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[dt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Convert.ToDateTime(@dt:string@).AddDays(1).ToString("yyyy.MM.dd")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedhjjejad</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Wk_Status]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[bool]]></Type>
+<Value><![CDATA[true]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[Convert.ToString(@Var_ToDay2:string@) == Convert.ToString(@dt:string@)]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbedhjjejbj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjcicgahhdc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[test]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["오늘은(월) 요일 입니다."]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjcicgcafff</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfbjcicgijigg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>338</X>
+<Y>638</Y>
+<Touch>True</Touch>
+<Text><![CDATA[@test:string@.Replace("(","{openparens}").Replace(")","{closeparens}")]]></Text>
+<TextType><![CDATA[True]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjdgfbbeafh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[new FileInfo("$ttt.Current$").DirectoryName]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjdgejgcbee</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_180223_145224_7894]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Double.Pars($S$)]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjdgfbeehij</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbbhjafijhj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[함수 작성]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[a]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["1,2,3,4,5,6,7,8,9,10"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbhjafijjf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[X]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{
+int sum=0;
+foreach(string s in $a$.Split(',')) sum += int.Parse(s);
+return sum;
+}]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbhjafjaba</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgaaddddfj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[폴더내 파일명 ]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgaadebjah</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Fil_List]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Save_Path]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["C:\\RPA\\안환003\\"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgaaediaia</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_List]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{
+DirectoryInfo d = new DirectoryInfo(@Var_Save_Path:string@);
+	FileInfo[] Files = d.GetFiles("*.*");
+string str = "" ;
+foreach(FileInfo file in Files)
+{
+	str= str + "," + file.Name;
+}
+return str;
+} ]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgabadhcff</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',')[0]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgabecgfhb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[0 번째 파일명]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',')[1]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgaeaaieej</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',').Length]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgaeehfhdc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[파일갯수]]></Desc>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgabbagaji</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafaiaaif</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafahbjij</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="LoopWhile" expand="False">
+<Expression><![CDATA[@i:int@ <= 4]]></Expression>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafbbfhaa</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafbcbaca</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',')[@i:int@]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafdfedde</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[0 번째 파일명]]></Desc>
+</Node>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[3000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfbjgafdibbbj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[@i:int@ +1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafbjjjaj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgaejgchfi</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbeedgcjbcg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[폴더 확인_LKB]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbeedgcjbeb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[폴더 확인]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_LOG_DIR]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[string]]></Type>
+<Value><![CDATA[@"C:\RPA\설비003"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeedgcjbfh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[폴더 경로]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_LOG_DAYS]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[15]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeedgcjbhc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[삭제 기준 일]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_LOG_DIR_DELETE]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{ 
+  string path = @V_LOG_DIR:string@;
+  if( !Directory.Exists(path)  ){
+      return "Not Exists :  " + path;
+ 
+ }
+return path;
+}
+ ]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeedgcjbii</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[디렉토리 확인]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbeeecejgha</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[폴더확인 LKB_확인후 꼭 사용함]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Folder_YN]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{
+DirectoryInfo di = new DirectoryInfo(@Var_Save_Path:string@);
+string str = "" ;
+
+if(di.Exists)
+{
+	str= "있다";
+}
+else
+{
+	str= "없다";
+}
+return str;
+}
+ ]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeeecgihjg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_YN]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{
+FileInfo fi = new FileInfo(@Var_Save_Path:string@+ "입고_Lis.xlsx");
+string str = "" ;
+
+if(fi.Exists)
+{
+	str= "파일있다";
+}
+else
+{
+	str= "파일없다";
+}
+return str;
+}
+ ]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeeejjbfhh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbeehefbdia</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Excel_Start]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[Process.Start(@Var_Save_Path:string@+ "입고_Lis.xlsx");]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeegghhdcb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[프로그램 실행]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbeedjaicii</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[파일처리/ 로그삭제]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbeedjaidae</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[로그폴더 자동 삭제]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_LOG_DIR]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[string]]></Type>
+<Value><![CDATA[@"C:\AutomateOne\data\testoned\log"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeedjaidbj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Automate 로그 경로]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_LOG_DAYS]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[15]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeedjaiddf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[삭제 기준 일]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_LOG_DIR_DELETE]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{ int logDays = @V_LOG_DAYS:int@;
+  string path = @V_LOG_DIR:string@;
+  if( !Directory.Exists(path)  ){
+      return "Not Exists :  " + path;
+}
+ System.IO.DirectoryInfo di = new
+DirectoryInfo( path );
+
+System.IO.FileInfo[] files = di.GetFiles("*.*",
+                                      SearchOption.AllDirectories);
+
+foreach (System.IO.FileInfo file in files)
+file.Attributes = FileAttributes.Normal;
+
+ foreach (FileInfo file in di.GetFiles()){
+    if(file.CreationTime <
+DateTime.Now.AddDays(-logDays ) )
+    file.Delete();
+}
+foreach (DirectoryInfo dir in
+di.GetDirectories()  ){
+     if (dir.CreationTime  <
+DateTime.Now.AddDays( - logDays ) )
+       dir.Delete( true);
+ }
+return path;
+}
+ ]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeedjaidfb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[디렉토리삭제]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgabecgfff</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[테스트]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[s_test]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["1/22/3333/44444/55555"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgabedhgbg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[s_test1]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@s_test:string@.Split('/')[0]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgaedahhdg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[s_test2]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@s_test:string@.Split('/')[1]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgaeeejedb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[s_test2]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@s_test:string@.Split('/').Length]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgaegaeagg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafhjihib</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[폴더내 파일명 INT32]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafhjihjh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Fil_List]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Save_Path]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["C:\\RPA\\안환003\\"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafhjiibc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_List]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{
+DirectoryInfo d = new DirectoryInfo(@Var_Save_Path:string@);
+	FileInfo[] Files = d.GetFiles("*.*");
+string str = "" ;
+foreach(FileInfo file in Files)
+{
+	str= str + "," + file.Name;
+}
+return str;
+} ]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafhjiici</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',')[0]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafhjiied</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[0 번째 파일명]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',')[1]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafhjiifj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',').Length]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafhjiihf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[파일갯수]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafhjiija</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafhjijag</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafhjijcb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="LoopWhile" expand="True">
+<Expression><![CDATA[@i:int@ <= (@File_ttt:int@) -1]]></Expression>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafhjijdh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafhjijfd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',')[@i:int@]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafhjijgi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[0 번째 파일명]]></Desc>
+</Node>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[3000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfbjgafhjijie</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[@i:int@ +1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgafhjijjj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafhjjabf</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgafhgicdg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[시간 계산]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_18_03]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.Now.ToString("HHmmss")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbhadjfbghe</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_180322_162358_4756]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[(DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0));]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbhadediehf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_180322]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[DateTime.UtcNow]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbhadgcbfgh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_1803]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{
+
+            var timeSpan = (DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0));
+
+            return (long)timeSpan.TotalSeconds;
+
+        }]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbhadhehedi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgagdgihci</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Fil_list 불러 오기]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgagdgihee</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[폴더내 파일명 Convert.ToInt32]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgagdgihfj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Fil_List]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Save_Path]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["C:\\RPA\\안환003\\"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgagdgihhf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_List]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{
+DirectoryInfo d = new DirectoryInfo(@Var_Save_Path:string@);
+	FileInfo[] Files = d.GetFiles("*.*");
+string str = "" ;
+foreach(FileInfo file in Files)
+{
+	str= str + "," + file.Name;
+}
+return str;
+} ]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgagdgihja</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',')[0]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgagdgiiag</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[0 번째 파일명]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',')[1]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgagdgiicc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',').Length]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgagdgiidh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[파일갯수]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgagdgiifd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgagdgiigi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgagdgiiie</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="LoopWhile" expand="True">
+<Expression><![CDATA[@i:int@ <= (@File_ttt:int@) -1]]></Expression>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgagdgijaa</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgagdgijbf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[ttt]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_List:string@.Split(',')[@i:int@]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgagdgijdb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[0 번째 파일명]]></Desc>
+</Node>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[3000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfbjgagdgijeg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[@i:int@ +1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjgagdgijgc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgagdgijhi</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbahhdhedig</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Window+R 에 URL 입력 ==> 최신파일 찾기]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_LLDPE]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["net use " +  "y: "+ @"""\\\\96.97.61.63\\Backup(LLDPE)\\24. 교대일지"""]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbahhdheeac</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_LLDPE2]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[" /user:"+ "s27020@hanwha-total.com" +" "+@"htc1234!"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbahhdheebh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfcbahhdheedd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>623</X>
+<Y>899</Y>
+<Touch>False</Touch>
+<Text><![CDATA["({LWin}R)"]]></Text>
+<TextType><![CDATA[False]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfcbahhdheeej</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>623</X>
+<Y>899</Y>
+<Touch>False</Touch>
+<Text><![CDATA["({LeftCtrl}A)" + @Var_LLDPE:string@.Replace("(","{openparens}").Replace(")","{closeparens}") + @Var_LLDPE2:string@ + "{Enter}"]]></Text>
+<TextType><![CDATA[True]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[8000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfcbahhdheege</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbahhdheeia</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[net use Y: "\\96.97.61.63\Backup(LLDPE)\24. 교대일지"  /user:s27020@hanwha-total.com htc1234!]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbahhdheejf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbahhdhefbb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[모든파일 복사]]></Desc>
+<Nodes>
+<Node type="Run" expand="False" vsn="1"> 
+<Command><![CDATA[cmd]]></Command>
+<Parameters><![CDATA["/c copy y:\\\\*.xlsx  /Y c:\\\\rpa\\생산007\\FILES"]]></Parameters>
+<StandardOut><![CDATA[cmdout]]></StandardOut>
+<StandardError><![CDATA[error]]></StandardError>
+<TimeOut><![CDATA[-1]]></TimeOut>
+<If><![CDATA[true]]></If>
+<ID>bfcbahhdhefch</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[모든 파일 복사]]></Desc>
+</Node>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[1000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfcbahhdhefec</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[$error$ == "시스템이 지정된 드라이브를 찾을 수 없습니다."]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbahhdheffi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Wk_Status]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[bool]]></Type>
+<Value><![CDATA[false]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbahhdhefhd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbahhdhefij</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbahhdhegaf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Fil_List]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Copy_Path]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["C:\\RPA\\생산007\\FILES\\"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbahhdhegca</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_RecentList]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{
+DirectoryInfo d = new DirectoryInfo(@Var_Copy_Path:string@);
+	FileInfo[] Files = d.GetFiles().OrderByDescending(x => x.LastWriteTime).ToArray();
+string str = "" ;
+foreach(FileInfo file in Files)
+{
+	str= str + "," + file.Name;
+}
+return str;
+}
+]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbahhdhegdg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[File_One]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@File_RecentList:string@.Split(',')[1]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbahhdhegfb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbahhdheggh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[최신 파일 복사]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_18]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["/c copy c:\\\\rpa\\생산007\\FILES\\"+@""""  + $File_One$+"\"" +"/Y c:\\\\rpa\\생산007"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbahhdhegid</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Run" expand="False" vsn="1"> 
+<Command><![CDATA[cmd]]></Command>
+<Parameters><![CDATA[@V_18:string@]]></Parameters>
+<StandardOut><![CDATA[cmdout]]></StandardOut>
+<StandardError><![CDATA[error1]]></StandardError>
+<TimeOut><![CDATA[-1]]></TimeOut>
+<If><![CDATA[true]]></If>
+<ID>bfcbahhdhegji</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[최신파일 복사]]></Desc>
+</Node>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[2000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfcbahhdhehbe</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbhhjddcedh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Net Use Delete]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_NetUseDelete]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["net use Y: /delete"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbhhjddcefc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfcbhhjddcegi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>623</X>
+<Y>899</Y>
+<Touch>False</Touch>
+<Text><![CDATA["({LWin}R)"]]></Text>
+<TextType><![CDATA[False]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfcbhhjddceid</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>623</X>
+<Y>899</Y>
+<Touch>False</Touch>
+<Text><![CDATA["({LeftCtrl}A)" + @Var_NetUseDelete:string@.Replace("(","{openparens}").Replace(")","{closeparens}") + "{Enter}"]]></Text>
+<TextType><![CDATA[True]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[8000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfcbhhjddcejj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbhhjddcfbf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[net use  Y:  /delete]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccadajeeegg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[하위폴더및 파일 삭제==>> 사용권장]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Path]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["c:\\test\\20180326"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfccadajdgchg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[RM_dir]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[ {
+            DirectoryInfo directory = new DirectoryInfo(@Path:string@);
+            directory.EnumerateFiles().ToList().ForEach(f => f.Delete());
+            directory.EnumerateDirectories().ToList().ForEach(d => d.Delete(true));
+          //Directory.Delete(sDirPath, true);
+ 
+            return true;
+        }
+]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfccachhaigfd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccadcihbfhf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[폴더 확인후 생성]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[MK_DIR]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{
+             DirectoryInfo di = new DirectoryInfo(@Path:string@);
+             if (di.Exists == false)
+             {
+                 di.Create();
+             }
+ return di.Exists;
+         }
+]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfccadcefhcdi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgjhhhhjca</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[list roop]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[R]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjhaaeghejb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjhaafcbdhg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="LoopTimes" expand="False">
+<Expression><![CDATA[2]]></Expression>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgjjjhdggj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgjhjffjab</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="ForEachItemInList" expand="True">
+<LoopName><![CDATA[AA]]></LoopName>
+<List><![CDATA[V_LIST]]></List>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgjiabjbee</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjhaaabfcbi</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgjidhaghh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[2000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfbjgjidigebh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjgjibgbfhc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjhaaaabgga</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[@i:int@ + 1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjhaaadhehj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjhaaagcjhf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[R]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[@R:int@ +1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjhaabejfdh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjiifajcjac</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[indexof]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbjiifajjjgj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[MailSearch]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["메일 주소 입니다. to aaa <dochi4@nate.com> ; 주소 여기는 대산 입니다."]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjiifbbahei</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_18]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@MailSearch:string@.IndexOf("<")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjiifcceigc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_19]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@MailSearch:string@.IndexOf(">")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjiifejijde</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_20]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@MailSearch:string@.Substring(@MailSearch:string@.IndexOf("<"),@MailSearch:string@.IndexOf(">")-@MailSearch:string@.IndexOf("<")+1)]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbjiiffcfiee</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcadjhbiifha</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[t]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcaeacidgabf</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[입력할카드01]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[string]]></Type>
+<Value><![CDATA["5"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcaeaiefeghj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcaebadjaiif</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[3000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfcaebadjajaa</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ForEachRowInTable" expand="True">
+<LoopName><![CDATA[TA]]></LoopName>
+<Table><![CDATA[보안카드]]></Table>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcaebadjajbg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[3000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfcaebadjajdc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_180307_153632_0203]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[string]]></Type>
+<Value><![CDATA[$TA.앞2$]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcaeaefjcaca</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_180307]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[string]]></Type>
+<Value><![CDATA[@TA.앞2:string@ + "앞"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcaebbiadejj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_180309]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[string]]></Type>
+<Value><![CDATA[@TA.뒤2:string@+ "뒤"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcaebdediddf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcafeigbieia</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcafeigchahg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_18]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[23,45,1,4,32,22,6,32,23,48]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcafejaijfba</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[firstSearch]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@V_18:string@.IndexOf("32")]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcafejbffjad</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[V_180309_132251_8745]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["\"" +" 테스트 "+ "\"" ]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcafgjdhbihe</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbbhgabbcie</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[배열 더하기]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbbhihebhdh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[a]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["1,2,3,4,5,6,7,8,9"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbhihejfcb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[X]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{
+int sum=0;
+foreach(string s in $a$.Split(',')) sum += int.Parse(s);
+return sum;
+}]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbbhihheebj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ObjStartDriver" expand="False">
+<DriverName>Chrome</DriverName>
+<StartURL><![CDATA[]]></StartURL>
+<Parameter><![CDATA[]]></Parameter>
+<DriverId><![CDATA[]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfcbbibbcjebf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[드라이버 실행]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbeeaifjgag</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[파일삭제]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Dir]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@"C:\RPA\"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeeaifjgcc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[삭제할 파일이 존재하는 폴더명]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_DeleteFile]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@"Test.txt"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeeaifjgdh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[삭제할 파일명-대소문자 무시]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbeeaifjgfd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[파일삭제]]></Desc>
+<Nodes>
+<Node type="CallGlobalNode" expand="False">
+<NodeName><![CDATA[Node_FileDelete]]></NodeName>
+<NodeArgument><![CDATA["\"" + @Var_Dir:string@ + "\"" + " " + $Var_DeleteFile$ ]]></NodeArgument>
+<If><![CDATA[true]]></If>
+<ID>bfcbeeaifjggi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[$Var_Return$ != "OK"]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcbeeaifjgie</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[성공(OK), 실패(NG)]]></Desc>
+<Nodes>
+<Node type="Exit" expand="False">
+<Code>-1</Code>
+<ID>bfcbeeaifjhaa</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdaijajeci</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="GroupMatch" expand="True">
+<Type>All</Type>
+<Timeout><![CDATA[10000]]></Timeout>
+<Interval><![CDATA[500]]></Interval>
+<Matches>
+<Node type="MatchImage" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdaijhjjhb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>False</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>0</Timeout>
+<Interval>0</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>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</Image>
+<TemplateX>203</TemplateX>
+<TemplateY>110</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>18</X>
+<Y>17</Y>
+</Node>
+<Node type="MatchImage" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdajbibddg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>False</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>0</Timeout>
+<Interval>0</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMxSURBVEhL1ZM5TJNhGMdfLD04yn0fhd4tZ7lvbYlGBqOGOKiJxAnZ1QE3wkCCg4BidBFMdJDFSJBE4hUTEyc3DEZ0o9xnCy3n3+f5Qgl+IHGgg8Ov37v0l//7f55XbO8AwUCsbwHBQKxuAMFAeNeBYCA8/h0EA7FMP8FALPl2IGc97wT8uQr47Qr4bAqsWUOxaiHMofAalfAYlFjRK7GcpcKSToXFTBUW0tVYSFNjPkUjOcTC2jbk+HMUOG01ot5qQr3FCKdJjzp9FuqydajRZaAqIw0VaSmoSElCWXIiihPjURwXi8KYKMyRmB1ifnUbcnyU1EVSl80MJ4lPmgyoNWSjluTVWZmozExHeXoqylKTUULy4qQEFMXHwRETjblkjeQQc94tyOGrO80GEhpRZ9TvSVsuNWJo4AVuXm9COSUuZSklLkqIh4MTR1NiErNDzHi2IIf7ZFGtQY8afTZqqAJOysKO27fQ19UlpZWku2kLY2NQEKXFbJJGcojplU3I8ZpCUUOi6iwW6lBFvfL1620W/Pg2iuYL56UKWOrgCihtAdWQr43EbKJGcojJ5U3I8dDkq0hUmcnCDFTsdsrX//V9DNV63Z60MCClGvIiIzCTECY5hHtpA3J4lSpZtA+++rWzZ/C09wG62toOSHMpbV54uCRmhxh3eyGH97OMV4lkPKCS3S7fD71Gc+NF3G9vx4fhYfR2dOBJdzdOmU2wR0TArqEa4sMkx6FiXvoSEgWGc9nlxNvBQXwaGcEVOvOgzpUW425rK14+f4arLhdsYWGwqdWYijtCvJihhiOBrkrcabkhJXw3NEQPxoJ8egR50VrkRkUiR0spKSlLrZTWrFJhMib872J+mg5KxckedXaiv6cHTQ0NB4R26nS/1KRSYjL6CPF8qpoGot1Lx9/9wpx9Qgtdn6VGZShMCgXcUUeI+fXk0Orkkoi/0plkdu6RZFaSBYScMiA1hIRgQrsnXqXDn/Dr4UWfCUArxPDEp2k4PKCpWNpX6pOv7mYo6QQFmaAQ7DhUzHz8Mop7D/v+mcf9A3j15jO+jrml/4vxSRIFgf9SvEaH40f8nPbh+PHhN8ZvzBREFhfcAAAAAElFTkSuQmCC</Image>
+<TemplateX>283</TemplateX>
+<TemplateY>151</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>10</X>
+<Y>14</Y>
+</Node>
+<Node type="MatchImage" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdajcabjci</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>False</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>0</Timeout>
+<Interval>0</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAEkAAAAXCAYAAABH92JbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN1SURBVFhH7ZZdSJNRGMcPEl6GZYIW4oUXUdFFQQTRx0UxLAi8CvGii6ALsZuaBRIRWPShFxlJ5bQ2dZO5zeX8otnYpticbroPXU7dNLxRb73wavDvnKNb+zitTYew2sWP9+u8D+f9vc/znENCoRByJCcnKQVyklIgJykFcpJSICcpBXKSUmBXktbX1zDr9UTwet3wetxwu2fgck1zZmacmJ52wOmcgs/nE8bJFnYliYlRKBQROjs7oVQqodf3oq+vDwMD/RgeHoLR+BVOxyQ/F8XJFvYkiZBekIPjIIcWQYo28Vq1hLoPK7j//idq3q2iqmEVDiqJSRPFyRb2JCmvQA1yxAhS7gYpWYVucBbKXh/UA3PQG71oUf6AY8oOg6FPGIcTlEFCCBUehdQUeW6SSiALRr9jgjR+fAxSmCJjKaL4JBwzCJkkbryAlCX5/X6YzWbaZ6Z5D2IlVn5ajfwiLcixMZCjPjx9E8Cr1iU0fAyg6fMiHtHrqakJXoaimEJMUkhkwch1oqQ0YZKipMeSYUl6vR5Xr1Wgvv4xleRBV1cXLkl0KCjtoOVGy67YjKraedQ996PmSQAPni3j9sMgl6TVaoUxGUGZJO4v00lTUYl/PfE9qSnqXpzcCPspqdvSiopNgoaxO/B4XOjp6cG5KyqUnZQj73AX7Un9OHvdheraOdy8u4hb94K4WD0Pu/07VCqVMGYs22UU8+GUP2VSWpIiwnd+QkzJZlCSwWCgcjzQ6XRckk6nRenxNpSdaseBwjaQQjUKTnzHhUoXztyYw/nKAIovOzAxMc6zThQzTDib4gUxEiQJe0w0gvH7lUlsaWeSWOmw/RDrM4S8AMlvoseXFHos/ETLjjbykhGKBaTsC8+kjo4OYcztSdIPk8gQFD7Psp4ULSm8YXTNxG4aJycnKDYOk8NgmcRWQlHMtInpVcmJZOV+SgqXG5O0srKM0VErLBYzbbLf+KaRbRg1Gg3UajW6u7v55pKtgEyQzWYTxvzNTkYJPjYjjVsUl2dvhiWx1c1isQib8NbWFkZGjGhsbIRcLsfGxkbCmOSwyYpl7LlxJyXDkqxWK1paWnjZRd9fW1uj5WWn2TLORWm1Gp49CwsLMeOS849Iam5+y/dI7Bh9n5UbY2hoEO3tbRyFQp5mH2KTFZQEJ4sk/c/kJP2VEH4Bh4zu8pnf3uIAAAAASUVORK5CYII=</Image>
+<TemplateX>212</TemplateX>
+<TemplateY>438</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>43</X>
+<Y>16</Y>
+</Node>
+</Matches>
+<ID>bfccdaijbjeed</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdajcgijeg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="GroupMatch" expand="True">
+<Type>One</Type>
+<Timeout><![CDATA[10000]]></Timeout>
+<Interval><![CDATA[500]]></Interval>
+<Matches>
+<Node type="MatchImage" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdajcgijhh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>False</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>0</Timeout>
+<Interval>0</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>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</Image>
+<TemplateX>203</TemplateX>
+<TemplateY>110</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>18</X>
+<Y>17</Y>
+</Node>
+<Node type="MatchImage" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdajcgijjd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>False</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>0</Timeout>
+<Interval>0</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMxSURBVEhL1ZM5TJNhGMdfLD04yn0fhd4tZ7lvbYlGBqOGOKiJxAnZ1QE3wkCCg4BidBFMdJDFSJBE4hUTEyc3DEZ0o9xnCy3n3+f5Qgl+IHGgg8Ov37v0l//7f55XbO8AwUCsbwHBQKxuAMFAeNeBYCA8/h0EA7FMP8FALPl2IGc97wT8uQr47Qr4bAqsWUOxaiHMofAalfAYlFjRK7GcpcKSToXFTBUW0tVYSFNjPkUjOcTC2jbk+HMUOG01ot5qQr3FCKdJjzp9FuqydajRZaAqIw0VaSmoSElCWXIiihPjURwXi8KYKMyRmB1ifnUbcnyU1EVSl80MJ4lPmgyoNWSjluTVWZmozExHeXoqylKTUULy4qQEFMXHwRETjblkjeQQc94tyOGrO80GEhpRZ9TvSVsuNWJo4AVuXm9COSUuZSklLkqIh4MTR1NiErNDzHi2IIf7ZFGtQY8afTZqqAJOysKO27fQ19UlpZWku2kLY2NQEKXFbJJGcojplU3I8ZpCUUOi6iwW6lBFvfL1620W/Pg2iuYL56UKWOrgCihtAdWQr43EbKJGcojJ5U3I8dDkq0hUmcnCDFTsdsrX//V9DNV63Z60MCClGvIiIzCTECY5hHtpA3J4lSpZtA+++rWzZ/C09wG62toOSHMpbV54uCRmhxh3eyGH97OMV4lkPKCS3S7fD71Gc+NF3G9vx4fhYfR2dOBJdzdOmU2wR0TArqEa4sMkx6FiXvoSEgWGc9nlxNvBQXwaGcEVOvOgzpUW425rK14+f4arLhdsYWGwqdWYijtCvJihhiOBrkrcabkhJXw3NEQPxoJ8egR50VrkRkUiR0spKSlLrZTWrFJhMib872J+mg5KxckedXaiv6cHTQ0NB4R26nS/1KRSYjL6CPF8qpoGot1Lx9/9wpx9Qgtdn6VGZShMCgXcUUeI+fXk0Orkkoi/0plkdu6RZFaSBYScMiA1hIRgQrsnXqXDn/Dr4UWfCUArxPDEp2k4PKCpWNpX6pOv7mYo6QQFmaAQ7DhUzHz8Mop7D/v+mcf9A3j15jO+jrml/4vxSRIFgf9SvEaH40f8nPbh+PHhN8ZvzBREFhfcAAAAAElFTkSuQmCC</Image>
+<TemplateX>283</TemplateX>
+<TemplateY>151</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>10</X>
+<Y>14</Y>
+</Node>
+<Node type="MatchImage" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdajcjihec</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>False</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>0</Timeout>
+<Interval>0</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>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</Image>
+<TemplateX>559</TemplateX>
+<TemplateY>62</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>25</X>
+<Y>31</Y>
+</Node>
+</Matches>
+<ID>bfccdajcgijgb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdbaciahge</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcbhc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[결재신청=============> 수정중]]></Desc>
+<Nodes>
+<Node type="Match" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddcbih</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAE0AAAAcCAYAAAAk2zLiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAMOSURBVGhD7Zm7jhMxFEBT5C/4jOmgoonyD9NMtT9AViuhFIgi5UxKMttRosnSIpQKxAqt0gMSVV4FBdoXiDwvvnY8c/3amUmFgi0deW1fe+zjm6w0aVx9vwVPPby0A2j8vF+Dpx5e2gF4aQegSPtxt4KXn6/h0es/0Hi18Wigl7OP16o0FBa8+QWX89+w2+08GujlyfBelYYmL2e31gkewdVC+++JKbjdbj0lGNI2mw30ej0rOOZh328uaXrBvmazqU5uvMih/ceOIW29XjulYUFxGKOD4mz9x4ghbbVaWaQNuCwKxiGNYLxnkGedHDtWKkgb5PV4POZQaXwRlLWXRvutnEcQBAGhDd2RGBt12xCdy9gRdNs0jtHuwojNb3dHfB1e07WNNQTnUfEMSp1YiiFtuVwSaYUwWUtpGEdBYXpfOSlETETKNi/FRKkeg/IiSGU7FbLyWoldChHaGikXIduWy0Ci1BJrp0QaFiHs5KSRY5N2CPoGbQeuJ41dAhEgcYkoF2zHkDaZTIxMQ1HibwEVSMG51YghZIcLY9GOw+LGZZ8aG0Is23EIrU5W1HlcBp2WmJ91WhCEcT4Why3oZDJOjZdxxR5ssSol0rAISVSaC8xA/QEq+41SCQQ8rC6N94VEEJMlBRfSUKx6WCrOlCYuDedXE6xiSJtOp+5MG2PNCq/37T3jgfjY4vxyEr5peXhKmJC4rAOtVgeyKcoOIcG+RAjM63xNNwkXIdvi2cpz2FoBf44ea8cqDQ9PKTKNFYuw+tLs8KySh0FhLCO5KA4elrUfkoZzwkTtYzhFoCzt0qpchCFtNpsZqJlmFyal2eabPJRptngClzUsajo2FNKUPhcojGXXUOtP2Hdb2R7qSXMIk3UtaZYNV+JflDafzw2UTHMIk9Js8036zkwLwr4lntBnsk4vipqOXZyyj7RlTYYRi7A1KsVpVJKGMqpim39sKNLwJeS7L3NYLBYeB6NvC1Uavv9+nN3B+6/2Cf876OXpW+3NLf6w8vzTjf9hxQF6efbhRpXmqcIa/gK9Ojiv8K4fnAAAAABJRU5ErkJggg==</Image>
+<TemplateX>265</TemplateX>
+<TemplateY>210</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>42</X>
+<Y>17</Y>
+</Node>
+<Node type="ClickL" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddccad</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAE0AAAAbCAYAAAA53gJaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAMbSURBVGhD7Zm9btswEIA95C36GNraqYvgd9CiKS9QBwEKD0WHjFLGWt46FnK6FoWnFg2KwHtboJP/hgxF6qRF/ZcrjzSlI3mKJE+FKwIfGJJHivx48qC0rr4voKEejbQ9aP24W0NDPRppe9BI24NM2vXtCl5+voFHr/9A69WmwQK9nH68kZ4yaSjMe/MLLme/4f7+vsECvTwZ3MHzTz9zaWjycrpgJzQoruYL9SZqaZiC2+22oQT5ulJpm80Gzs7OWHCsYfcbx0mzC/YdHR2Zk1svMmj/oeNIW6/XhdKwoDiMsUFxXP8h4khbrVaMtJ6URcE4pOWNdvSyrNNjh0oFab2sHo1GEipNLoKydtJoP0s/BM/zCG3oDtXYsNuGsK9jh9Bt0zhBuwtDMb/dHcp1ZE3XdtZQ9MP8GZQ6sRRH2nK5JNJyYbrW0jCOgsLsvnISCIWIRGxeiwkTOwblhZDodqJkZbURu1QirDUSKUK3mctAwoSJ5SmRhkUJOz5uZXDS9sHeIHfgetLEJRABmiIR5YJ5HGnj8djJNBSl/lZQgRScW40IAnG4IFLtKMhvXPeZsQFEuh0F4HfSvM7iUuj4an7a8cELomwsCnzopDrOjNdx+R64WJMSaViUJCqtCMxA+wEmu41SCQQ8rC1N9gVEkJClBefSUKx5WCrOlaYuDedXE2ziSJtMJsWZNsJaFFnv2jtGPfXa4vxyYrlpfXhKEJO4tAO+34F0grIDiLEvVgKzOluzmFiK0G31bOM5Yi1PPseO5WGl4eEpeaaJwgirL41HZpU+DAoTGSlFSfCwov2QNJwTxGafoFAEyrIurcpFONKm06mDmWm8MC2Nm+/yUKZx8QQpa5DXdGygpBl9RaAwkV0Dqz8Wv21le6gnrUCYrmtJYzZciX9R2mw2czAyrUCYlsbNdzkvzDQvOGfiCedC1slFXtOxixPxSjNrCpxYRKxRKc6ikjSUURVu/qFhSMOPa+++zGA+nzcUMPw2Nz9C4vfvx+ktvP/KT/jfQS9P3y7g2QfyuRv/YYDfv6VJTMEGA/SCwq5vV/AXHJ33FdpPj9YAAAAASUVORK5CYII=</Image>
+<TemplateX>266</TemplateX>
+<TemplateY>210</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>48</X>
+<Y>17</Y>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddccbj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Match" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddccde</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAEcAAAAUCAYAAADfqiBGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAQoSURBVFhH7ZXdTxxVGMbngv9A29DCoheNBr2o1KKmSS01mvqBUG0bIbSlwSurSRPYsldIk70AzBqo20jbhYJbiFIqC2pipWFx2zSI0fJhgW0LhQJ+NKFbkG3i3eN7zpyd2XPmQBrvTObit9nzvs955j3PzuwY8d8fwkWPMbn4EC56jAn6cNFj3FhIwkWP8dt8Ei56jPG7SbjoMUbnVqFSM3wfXfP//Ce815Ycfv9XjJHZVaiU9szh03gSjTeTqBmjsB4BpmW8ePqWw49x3hdERkFAYkcj68VwcG8AHl/M1HZ1wqPoPL4+S3OigmoVfZI3w1nvww7rGjJOrTKDwLhOHyrlvXN468JdFJye4AeuHF5G1c96WI9pdpG25Ps/sav1tsNPJcyDCsJDA9kBxGRdYwvVW3CCr2MoU8KRtKIv1+1wJI24ng27hu1v76dwfr2zCpWy7hmU9N/D3m8WsbVhBK3TSXw4lMBHCqzGenmNY3iv/y+U0p6dzVMOPwm6M7LF0GaNBisOIJsGk3QinFpFUyvCkbTCM6O4E2GrbocjaQmnh34Go3toCSrvtE/itcgCXu9dxJvf/gGPN8ZDqIjdx+HBJQ77zmqs9wZpmJbxfMN1h1+KumPmo5V5bIDWPcjjv5yJWVO1QRSeYesBFL5tao4eIv2hHlvrD/H9eX7x3eqZ/rye0qbVMwpCOEpr7rfGDMalkQRUikPjePkreqy65jm7Ly7yEM7G/8aBH+5xzsZXeG1394KlYzznH3b4XRqJYDsboKgDJx29KN4tCmBzZTStJvSEWTc1qUNklEdMXVsHNtN6e11qH1HHwgqhUnhIPVHjnkxnzaObIQGjfzQBlT1Nv2DruWnktc9gW/gOng1O4bFX6T+CB7RiBbOhqA1baoexrWOWaxm5dGvqPDniMNYh02CDpXRV5VSjwYP17KBB7GuLYp8YnvcoHMlXSwT55JtfL6/Tr9Ov8bf3UziXxxJQeSXwE54+cxu5oWlsaZrgwTzTNovclmkeCoP1cltneEBP1AyZa+KpqqjDb33EYKl9fOAQvKJ/qooer6IQ8oXGK8KRPJQ9JnY4kpbRrvmRVE/CGBh/AJWd/ivIDt6Ep36MB5Pz+S3kBON6TsV5QJt8V7nuyQ++c/hZfLHOnUMH1+7hRLFfhHNchCP1G8xwjqfX1kTcQdL1TH/V14jeeACVlz4eRKZ/FI/vaUbWZ3FkNU2tz0kKqPAcMqsp1Pf7HH4W4Q5k0W28P6zprQsNT2+TLG8U1UfoEEcicv8TM5zq9NqaRPAChcO87Jrpr/oaP04sQyWnJIwNBy9iY9kFbCztejSYtuRLbDr8tcPP4nwnhWPeKQ7oNdys28MZxAEeziB8PJxeuc/DUfxSqFqGbg6NzrgyuQwXPcbVqRW46DGu0WvZRccK/gVmehUVA0VSoAAAAABJRU5ErkJggg==</Image>
+<TemplateX>182</TemplateX>
+<TemplateY>87</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>47</X>
+<Y>13</Y>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[2]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfccdgfddccfa</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="LoopWhile" expand="True">
+<Expression><![CDATA[@i:int@ <= 30]]></Expression>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddccgf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[3000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddccib</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="LoopWhile" expand="True">
+<Expression><![CDATA[String.IsNullOrEmpty(@Check_In_1:string@.Split('\t')[@i:int@]).Equals(false)]]></Expression>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddccjh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Approval]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@Check_In_1:string@.Split('\t')[@i:int@]]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfccdgfddcdbc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[0 번째 파일명]]></Desc>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddcdci</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAADoAAAAZCAYAAABggz2wAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAPuSURBVFhH7ZZtTFtVGIAbf+pPfwlShIBEcNDxUWiBllJhYW5OhmWy0bkPQyZZB3PAXMmGM8RFZ4xZs8pgy7JoZtTNoXMfbqJjUzD82IiBKCYbPzY3GTrMgmZ81Md773pLb+9tx5LFNEiTJ7c9933fnue859xc3a3xKf4PzIvONeZF5xrzoldHxqhe/TIlpUspX15F49YdrFlXw+mvz2vGRzthRSsc1ViLF1FkK8WQWUBySg6pT5vIL7DxfV+/Zk40oyk6/Oso+YU2zAXFxMYbqH/VSdv7m1mytJQYfTr7Dnygyol2NEWHrlwjIcnAo7ELWGjI5vbNfcBJ8H2E88XFvOvZr8qJdjRFBy9fZ2dzDUOnG+DGXvitnenB3TDezqWeVtoOHVHlqOh2EafToQvG1hG477HFs6F7Jt5jC4kViKvtDcR11cZj9crxvWzQq+N1Ojse8b7XLuXKtUU0Ra8PD8PYEUHwHehvYOq7VUxeqISLVYwcW8Zg3w+qnHsi/bkLa2BSSlEZpdDMgoSOBxDqBi+gPDYrURH632TiqzLudJqZPG5h4ngRXFjE7UO53Bj6RTMnPB2CoH+1/YR2VOY/Fx3duxy+XcL04TQmPxFkPzXDZykc3fKsZnx47m4zaZKK7awtKm7h+xEVx3V6F13B47MVPdfTz57WFqGDzfz59mP4dj3M+M6H8H3s4ICng7e8B1U5mvjFtCao3VGx88IiKM6yvDBadeSzGlJL7LI/RxZWie4/eBhX3RbhKSt8/vHx9899DJ79kD8unbk7JnwWlz1PVfVaRZ4S/wRCV/oeyF3z2Ga2ecSOikLif8jXoPGIHf3iVBdNjW7czS28tm27JHX+d6i8CN+MCz/u/MUeTxtPpWZSaLGz1d2iKKYm3NNRJKQLYvflyYrf/V0NKyrtluAFEWrKOyGS6OcnzrLKuQ6vt52MjBySklPZvKlekq3vHpWuXo+XmJgErEUl2J8pIzXNQOeXZxQFZ4ty66ofVqKYOFltUTE+ZKEEAuc7kmhN7SYamty8UFmNIStXeN3LxFGxgmlB0HHsGpPCtbXldRISUzDlFwlvTsVk55p5rtyhKKjkPjoahohbNxyRRMUX9qZtOzDmWcjKMZFuMGIvzGdgzEfcewMMTMDGmvXE6pOkmFyTBVOhVVqU4IJKRNHZCYXjgYuudK6hvMJBxsIcMrPzyDYWkJeWQs8t0O0epf0m7Gp0EftEsnR/QUaWcFbThXijoqCSSB2deSJG4oGLXr46Qld3LxvrGrAVlxCf+CSJj+tZ9tIrPGJejWlFHRZjlnQuVzrX4t7+Bkc7T/HjT1cUBaOVgOhcZ150bjHFv32isvu/ZE94AAAAAElFTkSuQmCC</Image>
+<TemplateX>185</TemplateX>
+<TemplateY>113</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>103</X>
+<Y>16</Y>
+<Touch>True</Touch>
+<Text><![CDATA["({LeftCtrl}A)" + @Approval:string@ + "{enter}"]]></Text>
+<TextType><![CDATA[True]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcded</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[결재자 선택]]></Desc>
+<Nodes>
+<Node type="Match" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddcdfj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAD4AAAAOCAYAAAB3u6/pAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAE5SURBVEhL7ZMxFoIwDEAdvIYX4QCewM2ZOzByAFkcHTswcQIO4e4JPEZsQtOmJWDrY8PhDy0lyU/Tw/P1hj3yF98bf3Gie8DxfIPjxYBxe6a5096pGaczvYETnpHUg/02QJXuW+g/jhvxgJbzSji+qCHa99zh2k/f2lruu2+NlnMCayoTXyqKYHFFiONSg8Rai1OYg6WrLj3L6HWViacCEQXia3JF4iNcL7gOtz9nC/HZuFl8EziBxBWUirs1xXR5PD/e+Cznyj9I+Rv3XRbQeT1BFFegSiOF4oQSP4x+jriSlMXVN+QnAINmiOON+yIXxvMXcQFPQGhsjvjs0Jc3xEXSCGeK2zU3U5XbRFzWmyWO8EEmBPEFS1bfuOt8Ih4/l0TCT5HE1tCl+1iXljO9pGzxfbBT8Td8ACWvhhjfIpCwAAAAAElFTkSuQmCC</Image>
+<TemplateX>378</TemplateX>
+<TemplateY>147</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>40</X>
+<Y>8</Y>
+</Node>
+<Node type="Match" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddcdhf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>False</OnErrorExit>
+<Desc><![CDATA[조회 결과]]></Desc>
+<Timeout>8000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[0.95]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAABwAAAApCAYAAAAmukmKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAGsSURBVFhH7ZVLjoJAEIbrIh2PAiaeRXHlWRBcehGFGTduPIfvFyKi7v7pbhtlECfGmEomsZIvdldX8XUlGOh0PoMTOp1O4ITS4xGcUJqm4ISSwwGcUJIk4ITifYJSOlUQEURzcM35VYLdyWoGaArSNReq8LPeP6A43qMUXwqFgFAPMjnflkJfrS8yfZl8fa72ERTtYpTi2yDbhyclwvnWObW2fXMmmggLPdfzQj4PRdEOpXgXYRQ6ckobnszpB3o7hI6c3Pm661F53VPI56HNNkIpSmh5et221JSh/rW8CIEWhnc9Kp/1PII2my1KaVuXZrUO1JQWLCVsmzPhICj06Aup80I+D63WG5TiKmH7uu815O3l22i5ah+grl6aRvC7Xl7KVet+Q15QoN43ZzlotVqjFC10czkXlhZm+76W3v4WUpbV9oywl9XeoMVyDU5osViBE5rNl+CEZrMFOKHJdA5OaDKZgRMaj6fghIbDITghMMdH+Pb4CN8erwu7NVCtazbPxwvCEVoV89HlEZrgm9DER/gg/oMw95ZqKmiNzNET8fqEL8ZH+OYAfgC3FaFtl8KRmgAAAABJRU5ErkJggg==</Image>
+<TemplateX>363</TemplateX>
+<TemplateY>152</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>16</X>
+<Y>19</Y>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[$LastResult.Code$ == 0]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcdja</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="ClickL" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddceag</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAABUAAAAPCAYAAAALWoRrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAEpSURBVDhPrZLLlYMwDEXViGsxNDOBcgCnmQRm0s0MvwAhZPsiGcPgrL24x/o8PYtjaHm9EBpalgWhofn5RGhonmeEhqbHDI9zDCKCSm97zcSE6LxpbkgVWc1KDLPNOmiaHvAwbKoUlIhdzURsaiReDe2FR/1BK9AwTvAwESgyKNhIJT+2JnFkXE+lqD5m9r7LaRhGeBSr6VAlvG2Egmt2qBhRJfwFybevZ6RuZ1xO/X2Ah5jqwsa5lm0re+piQGlNK1/PSH2bEajv7/DI9SqQuJRtNbSY5q6nEpQfM/ZS6buc2q6HRyam+Z5fTrwFv7LOJC/xJQ91Kn09X5xJfD3xEqxv2w4e1jQ71DJoa7rlV2v8/0ux4aa9ONO66RAaqusWoaHfvwZhafAGvn0exwVqE/kAAAAASUVORK5CYII=</Image>
+<TemplateX>392</TemplateX>
+<TemplateY>172</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>-20</X>
+<Y>31</Y>
+</Node>
+<Node type="ClickL" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddcecb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAIkAAAAdCAYAAACe00+cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAASXSURBVGhD7ZpdiBtVGIYjgop3FbyQ3iiKonghRBGkCLUQg/SieOPPiAZBKIK0Soo/zUUUelNskispiSCrN4LZKioIGotbNoKstKCl1tYfdrPZWBVNdindzSTzes6ZnObMzJczmWbXbbKn8DDkO9/XzXnnmbN7MbGTPzdgMOgwkhhCMZIYQjGSGEIxkhhC0UryPeON2UvY/kEHsaOTCd/b/plVsVeTAZ2BVhIezv3TXXz7hwPHmUz43nZ80sUrM5dMBgMy0Eqy/f3ORIcjmfvTwS1TtslgQAZaSfhR1O12Jx4eEt+ryWBABlRRwoc6HZdYLEYi18cZHpJOEmpm0tBmQBUlfklWVlY8TIooRpIRJbFtWyAlyWazAilJtVoVV9k3joRJ4u933j0EHNqLTv33wNq4MpIk7XZbICVR4TUV2Ttu8CdJJ4m/vzv1NvDak8DrT8H+9YxnrTPzOZyjWU9tHNBmQBUllCTyJJmfn7+MFEb9oSqx2PChlVJJZCpqrYJMMoWS0uOhlEI8Hu+TKqFdySCpXqk5haiSiJmZz4QkXJbOd1+jvboK5/A+4FUmzk+nyJlhCWZQQmqIfQhYHslMhV7TMJIka2trAikJR4ohr1IS2avCBaHqgyiKgNSaK0lR6fFQdEPx1IQcxf5VXSMIk4Sa4dinZpkoTwMHn4Hz5gvAvj1oN2pkbyj8u6qyX5aef/8ikyR8H5xKJol4MoMKsaZjXSWRJ4nKIEmiCiKDEjfdE5peEjXUVJHV1NkNlIRjn54D9j4KPLuDSVMleyIhv7vnRg8pCZ9lc0UmSuDBCWEkSRYWFgTqSSLxnySy1+3Pej6Hk4PFwrFyZaQTcSTS5V6df7aQC/T3yFlKb49yGgkr17+qawTNZlMrCTXDacxV4Ty/E3j8PmDXbejsvhe1X86TvaGwfQipE2mUA59ZNmH7EP39nHIWmx1i7xJtBlRRQkminiBcBP7PL0lkQfjNjCeQLvdrfJPuzQ+XRJ4iLqz3f5Ck/sPJnhy3onXkIP4qT6F5x7VoPfEw2T8aOknch4sUopeNlfPVCUaSpFarCfwnCRdBIiVx+9yanBsdV5I8ubY+tFotrSTUjPPYncADN8G553rUz50VtX/f2o/Zm2O48PJzgX49efdGD8DKs3UrT8wRsAfDYg8XuaZBmwFVlPglCdIXRf2s/vBI5N1fHd76EJKIk4gOOD5EuFElqZ/5Ebj7OjTvugGn9+z0rP22+0F8uO0aTy0qeYufqmrtKpdkcXFRi1eULNkzNEKSaXrtSpjmv27y9JpCmCTUzN8fvYezt9+IC8e/CKw1pt4J1KIgJJlWa64kao8kz//2oB4OD+whI2ZVNlQSzlaUZCOJIsl6MZIk9Xp9KLggVD0SBf8foX2sAtEfxrEDTJICvaawvLyslYSa2UgKTJIDx9RagUkSvo9R0GZAFSWbEdBmcLVJshlcsST8hZsvz7ewtLQ00ZyYv6h96WirZ6CVhL/3+NDHNr469w/5H08CfG+PfGrjxeP0q3smgxBJ+Iux6ROT/xLwS9/oX4Te6hloJTEYOEYSQwgN/AdDAFwViL3BnQAAAABJRU5ErkJggg==</Image>
+<TemplateX>586</TemplateX>
+<TemplateY>446</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>34</X>
+<Y>16</Y>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[@i:int@ >= 3]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcedh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddcefd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAEEAAAAVCAYAAAAZ6IOkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAMOSURBVFhH7ZZrSFNhGMdPgnlLIaMyC6J1LzHCLg4vGQXShwJbs4guioj1pciVgfQh6FMmhbki6KKYlmZBUrkIpxmazrLEZhdRmUxnS+emcxed27/3qEdlnuWyTfNy4MfZ5Xlf+P943gul0WgwGchkMtAP239TzZwEwpwEgl0SNmV34mhRF4KfqrA1S4nAO3JsSGvC2tQGLEqoYh1jzbSXsLegE30kwP0e4LoGuNIOJCmAhDZg/oky1jHWTHsJ4fkqyEmAq20WJDebcbbehLiaPvDrALfZIiHsSQfoCJflFiQ29CP+Sy+iq42IrDbD/WQ56xhrpr2E0Nx2NFqAZJkZp7+ZcOxzL/ZXGRD+vh8eMbNEQljuL3zvB841mBBT24uDEgP2lOkRVGSEpwMlCHkccDiD8ITM70LwuAKIbNQN1wp54ApEI+9R9eNhl4SdmT/xw4yBLuB/MGJfhR5ccQ/Wv9TBK9YxEkQCLjg84dB3EpzDg5D5bCVhNPQ4p0hYl1KPoGIjQl5r4Z/ZgZCHbagwALG1fThQaUBEiQ5bXnRjRb4WHuSIpKKKBzlUAor/dsx8NH+WIIKAy4QeZDjcVElwP1yK3TktqCT7QKWJHIVNZsRJSRdUGxBZrsP2Qi3W5Krhm6ECla7EvDQFVr/pgVey1GES6DC2JEzacnDll2LXo1Z8JHtBltKMSIkRURI9QskyCHjeBX9ygXK9pQR1rRmLnxFxF+tsCqD5p04YCsuEE/K4EIhGagcg4RkpDpNA4xpdioicVhRogfNSA3aIddj2SotVeWr43OsAldoCnzwiIEkK/1MS1jkYHLkn2JLg8E5gcCNLIzCjFakKC4LF3Vj+WA2/bBVcbijg8kAFT0ENlo0jgGY8CTQTPR04tDBnSqDxOPIOK9PlOEMuSpsLu0GlKEDdVWNB4if42SGAxh4J7IyVwIqzJdB4Hy9DwM0mXPiqw8YSPZZcqsVSOwXQzAgJNF5ERMjtRsSLVfCNq2CtscWMkUDjTW6IC+Pt7wCGiUtwPn8tYaLMSSD8vxI0+A14piB0rEyMoAAAAABJRU5ErkJggg==</Image>
+<TemplateX>193</TemplateX>
+<TemplateY>231</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>441</X>
+<Y>10</Y>
+<Touch>True</Touch>
+<Text><![CDATA["{Down}"]]></Text>
+<TextType><![CDATA[True]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[@Check_In_2:string@.Split('\t')[@i:int@].Trim() == "결재"]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcegi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddceie</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[@Check_In_2:string@.Split('\t')[@i:int@].Trim() == "참조"]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcejj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcfbf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[통보]]></Desc>
+<Nodes>
+<Node type="ClickL" expand="False">
+<If><![CDATA[@i:int@ == 2 && @Check_In_2:string@.Split('\t')[@i:int@].Trim() == "참조"]]></If>
+<ID>bfccdgfddcfdb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[1]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAGUAAAAaCAYAAACuCJLbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAJgSURBVGhD7Zg9jsIwEIVzkkicJVehjURNT8kF0iHRcAFoaMkpoKGjoKFMM5uXxPnzOLYT72JpPdKnbOwhPOd5bLMRhfAuovf7TQG/iIqioIBfBFM8JJjiIcEUDwmmeEgwxUMmTcmSiKKoT0xp3vTnKcVJ1uXjfpALEsravIySOKVc5Gu43+90Op1ov9/TZrOprrhHO5cvU36fpEdQ6uLyWX05pTGXr2apdotKqcWladwNrm9Ky2hwM0w5n8+03W7pdrvR8/msflDhinu0Xy4X9nND7CaBK1NcaDc2JS/NiNO8axtXSssyUzCow+FAn8+nGtA40I5+/eDK7xtURw9Wx0Q+W1kyrrSbmZIl7UAGSxpnCkyYaQrKG7NJDOp4PNJ6va7A3yLQj7zH48E+p8ZsEnSo8s0qZaxdFSbataZUJnBiFZWCipL2HmGi5iVh3UWZI3a7Ha1WqwFoE4E85HPPqZma+T19/fwFpvS160KnXW0KqqMcQJIxfUqagZVGJGKps6gUbIhYf1+vl2SIAH0I5CGfe44MDNK92CkT9aYI7Sah065fvhpzWEaVgqoSJmZJMxstTMFJBXG9XllDAPpEIF9+DmY2o5VDqcfExCFCu2nw2muMN3qJ0fIlHQTEwLyoFFvsTfG2UlgsTHG7p4j9TdY9nDwuKuuv9hQBTDF5+SosTMGJxNnpa1TJfdqllemby1i7KpycviYrxaTELUwBOMO7+Z1iWinucKV9/p7yi0A0ZhPKXKzTuOIe7SaGfAsX2r00BSz9/9E3WardW1P+M8EUDwmmeEgwxUOCKd5R0A91gZdkaB4+XgAAAABJRU5ErkJggg==</Image>
+<TemplateX>376</TemplateX>
+<TemplateY>202</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>86</X>
+<Y>14</Y>
+</Node>
+<Node type="ClickL" expand="False">
+<If><![CDATA[@i:int@ >= 3 && @Check_In_2:string@.Split('\t')[@i:int@].Trim() == "참조"]]></If>
+<ID>bfccdgfddcfeg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[2]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAD0AAAAaCAYAAAAEy1RnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAMSSURBVFhH7dZbSFNxAMfxk2DeUsiozIJo3UuMsIvDS0aB9FBgaxbRRRGxXopcGUgPQU+ZFOaKoItiWpoFSeUinGZoOssSm11EZTKdrZybzl10br/+Rz0qc8s1N22ywZfd/mf8P+d/zs6hVCoVZiKJRAL6Yem7mc6NdmZu9CznRjszl0Nvyu/B0bJehD9VYGueHKF3pNiQ1Ya1mS1YlFJncRvzXA69t6QHg2TC9/uB6yrgym8gTQakdAHzT1RZ3MY8l0NHFysgJRO+2mVCersRZ5sNSGoYBLcJ8Jqr6Kgn3aCnfFlqQmrLEJK/DCC+Xo/YeiO8T1Zb3MY8l0NHFv5GqwlIlxhx+psBxz4PYH+dDtHvh+CTMEfRUYW/8H0IONdiQELjAA6KdNhTpUVYmR6+DkTzOSywWCNx+MznfHDYPAisjBsby+eAzROMP08Yb55N6J25P/HDiOFV5n7QY1+NFmxhP9a/1MAv0TFoAY8NFoc/+p5AWRzwmddm6InR2zkEvS6jGWHlekS8ViM4txsRD7tQowMSGwdxoFaHmAoNtrzow4piNXzIJYuKKx/pUAUo7ttJv0f3d7QAPDaDHGkMM1No78OV2F3QgVpyHtcayKWpzYgkMVnleh1iqzXYXqrGmkIlAnMUoLLlmJclw+o3/fBLFzsMTU/eGtpph7cntxK7HnXiIzmX8+RGxIr0iBNpEUkO65DnvQgmNyyet+SgrrVj8TOyoy42WQXTTWulR3EMhs9hgycYHzscwTI7wW40nWd8JWIKOlGiBs6Lddgh1GDbKzVWFSkRcK8bVGYHAooIOE2M4FMii7/B5Mhz2hp62ivN5EUO9dCcTmTKTAgX9mH5YyWC8hXwuCGDxwMFfHkNWDYFmG4qNJ29/94segc5Ek3nc+QdVmZLcYbcmGwu7QOVIQN1V4kFqZ8QZAOYzha05SajLeZoNJ3/8SqE3GzDha8abKzQYsmlRiy1EUznkmg6PwKPuN2KZKECgUk1FsdYy2XRdP7kDmxhsu0rzGQ/2vH9M9re3OhZzo12Zv8PWoU/4uRqRUDsxOcAAAAASUVORK5CYII=</Image>
+<TemplateX>193</TemplateX>
+<TemplateY>228</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>270</X>
+<Y>13</Y>
+</Node>
+<Node type="Sequence" expand="False">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcfgc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Aprv_Type]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[@Check_In_2:string@.Split('\t')[@i:int@].Trim() == "결재"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfccdgfddcfhh</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[$LastResult.Code$ != 0]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcfjd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcgaj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcgce</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[결재자 없다]]></Desc>
+<Nodes>
+<Node type="ClickL" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddcgea</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAIUAAAAeCAYAAAACe928AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAASNSURBVGhD7ZpfiBtFHMcjgopvCj5IXxSlYvFBiCJIEWohDdKH4ovVFQ2CUARplRT/NA9R6IvUJE9SEkHOvhTMVVFB0Fi8chHkpAUttbb+4S6Xi1WxyR3Su2yyX2dmM93Z3dk/491ps5nChyW/+f16me9+du4eNnX6xw40GhEthcaHlkLjQ0uh8aGl0PgIlOJbwuuzV7Dl2ACpo8mE7u3AzCrbq87A2XegFDSMB6aH+Po3C5aVTOjetn80xMszV3QGQgaBUmx5f5DoMDhzv1u4fcrUGQgZBEpBj5bhcJh4aCh0rzoDJ4NQKQYDm1QqJYWvjzM0lDApZDNJw5tBbClWVlZcJEUMLYWiFKZpMrgUxWKRwaVoNpvsyvvGkSgpvP3Wu4eBw/swaP/qWxtXlKTo9/sMLoUIrYnw3nGDPilhUnj7h1NHgFf3Aq89CfPnc661wcynsI4WXbVxwJuBkhT8pJifn78KF0T8ISKpVPyQarksCg2x1kAhm0NN6HFRyyGdTjvkaug3CsiKV9mcgKoUbGbmEyYFlWPwzZfor67Cems/8AoR5Ycz0pm4+DOoIRdjHwySR7bQkK+FoCTF2toag0tB4SLwK5eC94pQIWT1IKosELFmS1EVelxU7RBcNSZD1bmKaxKipJDNUMwzs0SMp4BDT8N643lg/x70Oy1pbyT0u4pyX5Wcfv8qkSJ6H5RGIYt0toCGZC2MdUnBTwqRIClUheDBsJvsCilcCjHEXJXUxNlNlIJinp0D9u0CntlOJGlKe5Tg3911Y2NKQWfJXJWI4XtQIlCSYmFhgSGeFBzvScF77f6i63M0JRgkDKNURz6TRiZfH9XpZwMlX/+IkiH0jqjnkTFKzlVck9DtdkOlkM1QOnNNWM/tAB6/H9h5Jwa770Prp4vS3kjIPpjEmTzqvs8km6h9sH4np5JBZmPsnePNQEkK8YSgN57+80qhLAS9eekM8nWnRjdl3+xoKfgpYUN6/wMp2t+dHslwB3pvH8If9Sl0774evScekfavjzAp7IdJKsAoG6PkqUtQkqLVajG8JwW98Rwuhd1n1/jc+rGlKEvXNoZerxcqhWzGemwr8OCtsLbdiPaF86x2+c0DmL0thUsvPevrD6ds39gAjDJZN8qSOQnkQTDIwyRdC8GbQWwp/DhiiJ/FH6ZE2f5V4K7HkIKdNPJA0zHCVJWife574N4b0L3nJpzds8O19svuh3D8lutcNVXKBj01xdo1JsXi4mIobjGK0p7YMCmm5Wv/hmn666MsXxOIkkI28+cH7+H8XTfj0snPfGudqXd8NRWYFNNizZZC7OGU6d8OsofBBXmoJLMiGyoFZRKl2ExUpNgolKRot9uxoELI6kpUvH80OhgVSX8UJw4SKSryNYHl5eVQKWQzm0mFSHHwhFirECmi97EevBlsiBTjzLUmxf9BbCnoCyafX+xhaWkp0Zya/zv0JZtJzCBQCvre3sMfmvjiwl/S/ygJ0L09+rGJF07KX8eb1AwCpaAvcuZPJf+l1Re/Cn9xdxIzCJRCM7loKTQ+tBQaDx38A5XOmHLa8XVxAAAAAElFTkSuQmCC</Image>
+<TemplateX>558</TemplateX>
+<TemplateY>437</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>103</X>
+<Y>15</Y>
+</Node>
+</Nodes>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Wk_Status]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[bool]]></Type>
+<Value><![CDATA[false]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfccdgfddcgff</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Error]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["90"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfccdgfddcghb</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcgih</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[메일 회신]]></Desc>
+<Nodes>
+<Node type="CallGlobalNode" expand="False">
+<NodeName><![CDATA[New Mail Reply]]></NodeName>
+<NodeArgument><![CDATA[]]></NodeArgument>
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddchac</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddchbi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Break" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddchdd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[String.IsNullOrEmpty(@Check_In_1:string@.Split('\t')[@i:int@]).Equals(false)]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddchej</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[@i:int@ +1]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfccdgfddchgf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[String.IsNullOrEmpty(@Check_In_1:string@.Split('\t')[@i:int@]).Equals(true)]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddchia</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[i]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[int]]></Type>
+<Value><![CDATA[40]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfccdgfddchjg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcibb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[상신자 의견]]></Desc>
+<Nodes>
+<Node type="Match" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddcich</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAFEAAAAUCAYAAAD1GtHpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAATpSURBVFhH7ZbrTxRXGMbnA39EY/RzP/STjZDUxNakxNZEWMtFCAuFWnsJqSFdkAWXW8AI0k2oLm3AxbLuLgVUZAm4CwgrIAlRuReotgVaL2hSLtJFmgbk6ZkzsztnzqxcwkeY5Lcz857nfc97njnMIPj+XcEu20N4+OwVdtkewsTTV9hlewjj5GeX7SGMPVkCz+XWe6jrGkHNnWFUt/fD2nofZa4+FF27i1OXbiDR3IAHfyxo8nYqwi+Pl8BT3zOMldXXWFtbw8I/y/jt6Rx6x6fQ0DuBc/VdiDrvwOlKNwanFjW5OxFh9K8l8NTcGcIqMRFrq/Tr8+xvHyamZ9A79hgVngGU3vCivnsEpyzNuPf7giZ/pyEM/+kDj6NjgJoY9lkdPk5rxodpDTj0ZR3e//wa3tF9D1vnEMTjStsATle40TH6XFNjJyEMTfvAY+vol3biG46fbg9ifPoFvKOTMFS5EVFYq6mhphuJx83YZ+xWYmVVCDlchQKVTqLgpBkhJ5uYWBMOHjbjYJl8X1+DfeQ+hEfMWaeuH1o/kKdo+XkdRgujk/CvgdUKg+SH5zL5kIgmxmS3IDbLg4SzHsTmehCd7cYnWS0IT63F27oKfH2+GQWOThzNs2tqqJFMEBsIxJjFqrXd0BPDxQaVmGJiMO3m6krYqTHKODXjeA3s/mvVvAz0wVmgr5fuWa0wMOUDj8XVu+5OlI41PJmbRdvgIxzNd2hqqKALI5PqSLN8TIQ0E9CSZvfy2inFxICOQkzUmbGXmBiIySbmq3QK+fLiAzFGrxkLIM0j9qQXNVzfwvW+WfAU17VLO/FsK6JMLUgwtUGfQ3ZkDjmbPIjIbMIHXzhRVNWDjv4phJscmhp+itPkP4kkK/bT801prMhK4laksnoaM2N/kXzt1/bdpLk0zuornXiLrSki15DmZOIyUj/KvKlJRBfhRLH/+o05FhyrVGKsVmgdmgdPjq11EzsRWF75D1Mzc/go16GpQSmWFrTH4JVjXkRFkskjnbhIx6ww+LXVTuwh2gPF8n0gX9Q04gA/RjAkk1rUMAuiqvkctZZFyRNRtDSe3BhE668v9RHIlbVC+/A8eDJtbdJOzHLjBNmNJ8i7MC5bfDe2I66wE8mFHYjKbMd3Pw+h/9EMjuTYNTU2pERabHqwMQ2NCCVNh5YoMYtB2h3RZHHStVxrS3XVpMsmSvdeRMsP3MLpeK1we2QePH4TNzrEf8Ynn88hnJgYrA5LhurpixADbEG0sgkZqrhioqJR55enEyPJgsuD5m8O2iMxRh3n5pZhtULn6AJ4jDbpnRhtbCFfaA/iyNdZJJ68D+PJOcHUjsiMW7h4fQQPHko7MVgdP2fECckCf2DjFyQjYq4ysUDcijNsbCusl0/H/A+Rx4pQ2Rh1nmziBTamRvCOLYDHYHVvaie+lnfikVy7pgZLZgppTufEj2y8VDbRzsQCcSsy2dhW2EY+7TOlkYs3IoyYGFbKxtQIXeMvwfPVJRc1MTa7Gfq8W0jK91D0eW7yhW5GIkH3rQtm+32MTL6gJgarw2IUG1Q9eQtiHUG01AReK5Pi0up5ZBONwcY2gPaomcNFTQzajzyP0DPxEjyfltbJe23jY9a3jMi8q5oaOwnh7q+L4Hk3tQzxJbWIPudcl5giB46ZruC9b8o1NXYOi/gfU20gNCcFxocAAAAASUVORK5CYII=</Image>
+<TemplateX>209</TemplateX>
+<TemplateY>271</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>59</X>
+<Y>14</Y>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddcied</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAE8AAAAWCAYAAACBtcG5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAATxSURBVFhH7ZbbTxRXHMfngT+iMfrchz7ZCElNbE1KbE0ELBchXAq19hJSQ7ooF5dbwAjSTagubcDFgrtLARWBgLuwLghIQ1TuBYptgdYLkpSLFKRpQL49c2bOzJlh5NbHZZIPO/Od7/ec3/nNyQxCqXcau+wMYfGfFeyyM4SxZy+xy84QRp++xC47Qxghf3bZGcLwkyUwrjTfR3X7ICrvDqDc0wNb8wMU1Xcj7/o9nLp8E7GWWjz8fV7x+zrCz4+XwKjpHMDK6iusra1h/u9l/Pp0Fl0jE6jtGsX5mnaEXnDgdKkLfRMLSsaXEYb+XAKj8m4/VknzsLZKvybP/lrE6OQUuoYfo8Tdi8KbbajpGMQpayPu/zav5HwVYeCPRTAc3l7avIBPqvFhUiPeT6rFoc+r8e6n1/FWyLeoaO2HeFxt6cXpEhe8Q8+VrC8i9E8uglHh7ZF23muOH+70YWRyGm1D4zCVuRCUW6VkjelA7HEL9qV2qFpRGfwOlyFH45PIOWmB38kGTmvAwcMWHCySr2sqsY9c++kRMxuMy6DjKznVq5/XkWrlfBJsDbxX6CN/GFfIB0JsXnh6EyLS3Ig+50ZEphth6S58lNaEwMQqvBlSgi8vNCLH0YqjWXYla4y0eHFiReMWqfV2IIY0WixM1dTmGXm3Nq6EnTZEvU+bcLwSdnaumZeDPjArYmqka94r9E4sgmGt79pw50nHGp7MzqCl7xGOZjuUrCF0QWSyEFKkXhMhRSheUuRevXdCbZ7io5DmhViwlzRP0eTmZWt8KtnyohWN86+7pyDNI9YUI3p0dQs3umfAyK/2SDvvXDNCzU2INrcgJoPswAzya3YjKKUB733mRF5ZJ7w9Ewg0O5SsnvwkeevH2bCf/t6S7uXZiG5DIu+nmgX78+Rz5u2+RbNU5/2lTrzBjykijyHNyekyUj3qvIlxxBfkRD47f23GimOlqsZ7heb+OTAyKpq3sPOA5ZV/MTE1iw8yHUpWQ760kD2mNllrQ2gwmTTYiUv0ng0m5i13Yg/xHsiXr5W86KnDAf09gimejEUbZUVouT6j9fKoORHVS/X4OgMvG1+qQ8nKXsEzMAdGSkWLtPPSXDhBdt8J8q6LTBfffR5E5rYiPteL0BQPvvmxHz2PpnAkw65kt0yBtMhko3vrqIM/Kda/QNWsJmk3hJFFSefyWNsaV0uy3Dzpug1h8oO26nx6r3BncA4M1rzNDvGf6PHnswgkzePzRpzRPG0RsvAKA6+8+DMaXW2e6tHmi5NJA8lCiw3zW4PWSBqi1XVzy/BeoXVoHozUCumdF5baRL64bkSSr61IFHnfRZHfaLMHwWdu49KNQTwck3Yen9dzVpyILOw7Xr8oNSD8Gqcpug1neW07bJSn99jD02ODv9wQbU5u3kVe0yK0Dc+DYbK5trTzXsk770imXckakZJAigpx4nteL5SbZ+c0Rbchhde2w//I0zoT6nR6HQJI8wIKeU2L0D7yAowvLtfT5kWkNyIm6zbist2UmCwX+eI2IpYQ8nU9LPYHGByfps3j80akioVpnrQVEQ4DL1283iuTUL/er0duXqrRvU2gNa6bo542z7AeeR6hc/QFGB8XVst7a/NjZnEZwVnXlKwvItz7ZQGMtxOLEFVQhbDzzg0Jz3PgmPkq3vmqWMn6IsJPYwvYZScs4D/6RajY4EnDRQAAAABJRU5ErkJggg==</Image>
+<TemplateX>211</TemplateX>
+<TemplateY>270</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>22</X>
+<Y>43</Y>
+<Touch>True</Touch>
+<Text><![CDATA["({LeftCtrl}A)" + @Mail_Sender:string@]]></Text>
+<TextType><![CDATA[True]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfccdgfddcifi</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[결재신청 나가기]]></Desc>
+<Nodes>
+<Node type="ClickL" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfccdgfddcihe</ID>
+<Checked>False</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAFYAAAATCAYAAAAKw/ooAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAM5SURBVFhH7ZNLcuIwEIZ1EMRRsDlMsJ3LJMYOd+Fh4DYZAoQQQkhWPd2S2rSN4qlUeTELL75Crf77KaO+v7+ho33U5esLOtpHXS4X6Ggfdf78hI72UefzGTraR50+PqCjfdTpdIL/gskQ1HDi9/2aNdz3+3C/9vlOMBkqGE78vrZQx/cTNLK+B60UqJI+JNiwV/tLVkkflL6HFdlPdrE+3ZU1JFqBTtYen4R0P/eZ42LDJ7+vLdTx+A6NrBLQ4ZPf1yY5LvZfdagXrZEEVj5/CS1WQ7Ly+d4hD3Gxud/XFurwdoRGlrTY3OPLIVQhxLF2X7KGeLmCGL8oa4eQlVp5Tzp3n4e4TJdbnn8gMwuhXCIHQ/H8rwqTqoZmYB8+SmzykM/lim2svTtCUc50vavMgDkKV5d6slo57xEXe3iDRorYLvbGR4vFv2W8NDY3E2bWTzb7DlkMceHiMhxCx1DwmXPLsxf7kBmeTS2ppR7pwWSN0rZ9cl9Wy/bSLkvmkv2ZWJunMk+RQ0a5Kz3jHddA1P71AI24RvgF6WXGxpdBUJ6dDhtasE1Fg+yah5E6qflJz0i/6elae2GGLoS+gAi/xKioxTnGgYIgq+nqcU5LuUlLvzf9UW45s0Dt96/QyAKHoIQ3PlpsAGO2SUdF2B4HthFjU8PicVgnNRX9LbQMHeHyjG3zBWPrW0Q4vDtf/bigBZ4x7zXOYhZr9EJXxok+HRxPdaRtoL5JV+tdbXd7aGQe4WLHHt/YLDZlm3Q6ghnbKS2K4hYwoiWkHl2pqZ3rUIwYtMTpZziwjhYihnrTMJrj+Sav7IfOTlf6pO0npYfheRz1HtR2u4NGZrTY1ONL7WLZJh0tjG0zEMWRDpud2XtqSrGu1NTONWYj+hvWfFSP85rztRejL2tW65s6+ChBSvbcLpJ9HCtqzUaRycu/rDHxaVTJq0fzMk5tXnbQyDSCXu1LGTySL4UBDvMgdb0Ipmw/4gCD1JynZlCOxTjWCU3lXGEOdz0Nd9P6/Q4eBgp6OAydZY3eKK3GUG7noxoUZ2fw5yb/NZfNX9lDOSftgLViF4jabLbQ0T7q+c8LdLSPen7eQEfbbOAvBw0ChQrmKPEAAAAASUVORK5CYII=</Image>
+<TemplateX>971</TemplateX>
+<TemplateY>154</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>67</X>
+<Y>-92</Y>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Exceptions type="Exceptions" expand="False">
+<ID>bfbifgfejbhaf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Exceptions>
+<GlobalNodes type="GlobalNodes" expand="True">
+<ID>bfbifgfejbhaf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="GlobalNode" expand="True">
+<ID>bfbjdghhahjhe</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Ref" expand="True">
+<Name>금액분석노드</Name>
+<Dir><![CDATA[\node]]></Dir>
+<If><![CDATA[true]]></If>
+<ID>bfcbbhgihjbha</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="GlobalNode" expand="True">
+<ID>bfcbbhgjfhjad</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Ref" expand="True">
+<Name>화면내이동</Name>
+<Dir><![CDATA[\node]]></Dir>
+<If><![CDATA[true]]></If>
+<ID>bfcbbhgjhfdga</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="GlobalNode" expand="True">
+<ID>bfcbbhhaagihc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Ref" expand="True">
+<Name>입찰시작일시노드</Name>
+<Dir><![CDATA[\node]]></Dir>
+<If><![CDATA[true]]></If>
+<ID>bfcbbhhacgice</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="GlobalNode" expand="True">
+<ID>bfcbbhhajahfd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Ref" expand="True">
+<Name>특정URL연결</Name>
+<Dir><![CDATA[\node]]></Dir>
+<If><![CDATA[true]]></If>
+<ID>bfcbbhhbafdai</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="GlobalNode" expand="True">
+<NodeName>test</NodeName>
+<ID>bfbjdghhcdead</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Ref" expand="False">
+<Name>변수처리예제3</Name>
+<Dir><![CDATA[C:\AutomateOne\Desktop\Script samples]]></Dir>
+<If><![CDATA[true]]></If>
+<ID>bfbjdghhfdife</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="GlobalNode" expand="True">
+<NodeName>Node_FileDelete</NodeName>
+<ID>bfcbeeaijjhbe</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[Var_Return]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA[{ string Path = @NodeArg.0:string@;
+  string File = @NodeArg.1:string@;
+  
+  FileInfo fileDel = new FileInfo(Path + File);
+
+  if (fileDel.Exists) // 삭제할 파일이 있는지
+  {
+    fileDel.Delete(); // 없어도 에러안남
+    return "OK";
+  }
+  else
+  {
+   return "NG";
+  }
+}]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfcbeeaijjhcj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</GlobalNodes>
+<Data>
+<Lists>
+<List name="V_LIST"><![CDATA[11
+21
+31
+41
+51
+]]></List>
+</Lists>
+<Tables>
+<Table name="보안카드"><![CDATA[번호,앞2,뒤2
+1,1,1
+2,2,2
+3,3,3
+4,4,4
+5,5,5
+6,6,6
+7,7,7
+8,8,8
+9,9,9
+10,10,10
+11,11,11
+12,12,12
+13,13,13
+14,14,14
+15,15,15
+16,16,16
+17,17,17
+18,18,18
+19,19,19
+20,20,20
+]]></Table>
+</Tables>
+</Data>
+</Script>
