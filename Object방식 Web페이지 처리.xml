@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Script version="4.0" platform="Desktop">
+<Node type="Main" expand="True">
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbfaceehfifg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbfacfcegjfj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[접속 URL설정]]></Desc>
+<Nodes>
+<Node type="Set" expand="False">
+<Name><![CDATA[접속URL]]></Name>
+<NameType><![CDATA[False]]></NameType>
+<Type><![CDATA[object]]></Type>
+<Value><![CDATA["https://issue.eais.go.kr/eais/login.do?actionFlag=loginUse"]]></Value>
+<ValueType><![CDATA[False]]></ValueType>
+<If><![CDATA[true]]></If>
+<EncriptType><![CDATA[False]]></EncriptType>
+<ID>bfbfacfchdbdb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbfdjchaiddh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Object방식으로 프로그램 실행]]></Desc>
+<Nodes>
+<Node type="CallGlobalNode" expand="False">
+<NodeName><![CDATA[NewAppObjectOpen]]></NodeName>
+<NodeArgument><![CDATA["IE" +"   \"" + @접속URL:string@ + "\"" ]]></NodeArgument>
+<If><![CDATA[true]]></If>
+<ID>bfbfacfceiibi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[드라이버 및 URL열기 Node호출 실행]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbfdjchijcad</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[동의용 체크Box선택]]></Desc>
+<Nodes>
+<Node type="ObjMatchAndClick" expand="False">
+<ObjTagName><![CDATA["agre"]]></ObjTagName>
+<ObjLocator><![CDATA[Id]]></ObjLocator>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfdjbbcgijc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ObjMatchAndClick" expand="False">
+<ObjTagName><![CDATA["agre2"]]></ObjTagName>
+<ObjLocator><![CDATA[Id]]></ObjLocator>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfdjbfcjfgi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbfdjcifhjdc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[사용자 정보 입력]]></Desc>
+<Nodes>
+<Node type="ObjMatch" expand="False">
+<ObjTagName><![CDATA["nmembNm"]]></ObjTagName>
+<ObjLocator><![CDATA[Id]]></ObjLocator>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfacfeidchh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ObjSendkey" expand="False">
+<Sendkey><![CDATA["홍길동" + "\t"]]></Sendkey>
+<Submit>False</Submit>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfacfehffbc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ObjMatch" expand="False">
+<ObjTagName><![CDATA["nmembTel1"]]></ObjTagName>
+<ObjLocator><![CDATA[Id]]></ObjLocator>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfdjbggaead</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ObjSendkey" expand="False">
+<Sendkey><![CDATA["010"]]></Sendkey>
+<Submit>False</Submit>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfdjbgebeaf</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ObjMatch" expand="False">
+<ObjTagName><![CDATA["nmembTel2"]]></ObjTagName>
+<ObjLocator><![CDATA[Id]]></ObjLocator>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfdjcddhccb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ObjSendkey" expand="False">
+<Sendkey><![CDATA["1234"]]></Sendkey>
+<Submit>False</Submit>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfdjbiaegbj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ObjMatch" expand="False">
+<ObjTagName><![CDATA["nmembTel3"]]></ObjTagName>
+<ObjLocator><![CDATA[Id]]></ObjLocator>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfdjcdiffdd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ObjSendkey" expand="False">
+<Sendkey><![CDATA["5678"]]></Sendkey>
+<Submit>False</Submit>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfdjcdiidba</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ObjMatchAndClick" expand="False">
+<ObjTagName><![CDATA["//*[@id='contentarea']/div[2]/div/dl/dd[8]/span[1]/a"]]></ObjTagName>
+<ObjLocator><![CDATA[XPath]]></ObjLocator>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfcajdidcehha</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="Sleep" expand="False">
+<SleepTime><![CDATA[1000]]></SleepTime>
+<If><![CDATA[true]]></If>
+<ID>bfcbhhaibchjj</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+</Node>
+<Node type="ClickL" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfcbhhafecffb</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>False</OnErrorExit>
+<Desc><![CDATA[공인인증서 경고창]]></Desc>
+<Timeout>3000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAMMAAAAmCAYAAAB59i+bAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARKSURBVHhe7ZdBjtwgEEV9lFzDF/J1+gi5RUuRsskBsoyymEUUKceYxKGAsjEUmLLxtJH+k0qaNmCgqM8fDzMAwAIxAOCBGADwQAwAeCAGADztxfDnswsAOqO9GL59cgFAZ7QVAznCV/NKCrgD6Iy2YjCO8O/7YAPuAHqjnRi8K7z/cgF3AL3RTgzeFd5/u4A7gN5oI4bQFbwY4A6gN9qIIXIFDrgD6InzYpBcgQPuADrivBgyrsABdwC9cE4MJVfggDuATjgnhh1X4LjSHZ7TMA+DEONjfvN9mLfHGPSZ5mfwfOIfnuq+zynol0b8XiI3n9Q3JLtXYaCmr5l8HpO+4/yIE5hBWvtzyow3+Rqjhtze0+fPeRLONXlO+6GBwlymcX6M0V792ONiyLgCTxA++3h3MBueoqRR0YaZpd8+CUnSNX1DbFHtF5H0juJ7PWKB8cFHZIsxgYpjFftKrvBSSHiu6MyYpcjC+YUCDPps9i4Kk4LWeFYMbh1Juvz5HhdDxhV48fHzy78dNkWRJi0ttrUI4jZNX4c/bDun/zvttEDFEzfL792iE8N6FpuQikkswDox0bqHabIiCJfRwhlSzoohN96d7zExFL4VOJnx88vdIVMUC6T+7Wktv5PDUPTlotuMJ2gM5SJtcLenfe7/9pF0jdCI4XK8gMJis7nwaymJIc6JJIZQzOscmWK2ufbO4cfYOczz652h8K3AG5DamroDF9tOhBu3txi3BUmVDkPTV4MrmEdyKDXvzd724UBNXg7k8CxuD9t/y+K90+9YZK5dFgO1j2MwJusMhHfucI/+nXoxFFyBgieQ2j7+26EOTYFv+iqLyRYCH6a9WdfbU7MGd6DbgpKI15oWRgO8Q6T7FpyB8mX2/4yKPd574irL2tebfxlP77SDqc2P2xVDmLtVYHoxFFyBgpMhtVG0/3YIrJFDuD0snKQIsRA1fWuwRRMVMD3za20rBuH2y+ZG07eepKDt/vmZm5MLNd47/Q6LOOsMXlzLb84nn92lYthxBQpOpNRmo6k70MYyN5BUWZykGrR9wyKyIayrQFEMtJ/k/WnsLzcqpiKVfcW9U4T7l87JCYLWLO3d/TvlYi1oxZrohaEYanLoelay4woU/GKpjaOdO9xBDPFNw2gKj6Y76DgirtA2B82RrEnTV0CT0wz1ez8hhgrqxVDhChScSKltiabuYBIUHiBFLmGUpLgvR3wap/s2dAY1OYFKaPoKFPJUW4j9iaHCFSg4EVJbGO2/HcBK4bZPRFrqe0IkHVInhkpXoOBESm2baOoOAJynTgyVrkBRLQYTcAdwJ/bFoHAFdcAdwI3YF4PCFY4E3AHchbIYDriC5t8kG3AHcBPKYjjgCmoxmIA7gDuQF8OV3wpxwB3ADciL4eJvhTjgDuDVyGKgG/rLMP/9YeLnB4WZi+aEO4BXIYuBbmgqzFcE3AG8CFN9AIB5nuf/pKQsteoeYLQAAAAASUVORK5CYII=</Image>
+<TemplateX>861</TemplateX>
+<TemplateY>520</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>178</X>
+<Y>82</Y>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfcbacddbgefh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>False</OnErrorExit>
+<Desc><![CDATA[정보창 닫기]]></Desc>
+<Timeout>3000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<Image>iVBORw0KGgoAAAANSUhEUgAAAMgAAAAtCAYAAADr0SSvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARsSURBVHhe7ZdBjtwgEEX7KLmGL+Tr9BFyi5YiZZMDZBllkUUUKceYxKGAsstQ0JSNe+zoP6mkaQMGivr88W0CABSBQACoAIEAUAECAaACBAJABQgEgAoQCAAVjhfI748hALggxwvky4cQAFyQYwVCzvHZTUEBFwEX5FiBOOf4+/XmAy4CrshxAonu8fYzBFwEXJHjBBLd4+1XCLgIuCLHCES6RxQIXARckWMEkrgHB1wEXI3+AtHcgwMuAi5Gf4EU3IMDLgKuRF+B1NyDAy4CLkRfgTxxD44jXeQx3qbbTYnhPv2IfZgf90H0GaeHeD7yj0hz38co+uWRvpcozaf1lRT3qgy09HWTT0PWd5juaQILaGt/jIXxLl9D0lDae/78MY3KuWbPaT80UJnLNU73IdmrGNtPIAX34Enls9e7iEvCmCSSCllmm37HxGQHYekr8YX2vLC0d1TfG1GLjoshoVigGVQwywWwUCrGHBJjKEQ3Zi48Ob9SlKLPau+qWClojXsFEtaRpUucbz+BFNyDN5Q+P/xbZFUoeSLzAlwKI22z9A3EAvBzxr/zTjNUUGmz/t41NoEsZ7EKrcDUomwTGK37No5eGHIZPRwkZ69ASuOX8+0jkMq3Byc4fX64ixQKZYZuifUJzr+zAzL05UJcjSdoDOUibwi3rH8e/46RdU2wCORwoqhkAfpcxLXUBJLmRBOIFPgyR6HAfa6jw8Qxfg73/H0cpPLtwZvS2rq6CBfgk5DJ8Lcdt4lEawdk6WshFNE9O6iW9xZdQQ605GVDDvcS9hBuaybdO/1OhRfadYFQ+zCIMUUHIaLDyz2Kd+4XSMU9KHhSre313yJtWIp+1ddYYL44+DD8DbzcspY1hENeF5lGuta8WDoQnSTft+IglC+3/0cigHTvmfvMa18cYh5P7/SDqS2OeyoQmbu16PYLpOIeFJwgrY2i/7eIsFUO5ZbxcOIS1OK09G3BF1JS1PQsrrWvQJRbspgbS992siL3++dnYU4u3nTv9FsWdtFBouDm35xPPruXC+SJe1BwcrU2H11dhDZbuKm0auPEtWDtKwvLh7KuClWB0H6y9+fxfLlJgVVp7KvunULuXzunIBJas7b38K9YiKXIDWuiF0qBNOZwn0CeuAcFT6S1cfRzkTMIJL2RGEsx0nQbnUklFN/q4DmyNVn6KlhyWqB97zsE0sh2gTS4BwUnV2ubo6uLuKTJQ6UoJZESl/blSE9od9+ODmKmJFoNS1+FSp5ai/P/EEiDe1BwcrQ2Gf2/RcBCxRUy4db67hDORdkmkEb3oODkam2r6OoiAPRhm0Aa3YOiWSAu4CLgbNgFYnAPc8BFwMmwC8TgHlsCLgLOhE0gG9zD8i+WD7gIOBE2gWxwD7NAXMBFwFloF8iR3x5pwEXASWgXyMHfHmnARcAZaBMI3eSfbtOfby6+vyjcXDQnXAS8J20CoZucivU9Ai4C3hFXgQCAEhAIABUgEAAqQCAAVIBAAKgAgQBQZJr+AV3/6bf/9o1oAAAAAElFTkSuQmCC</Image>
+<TemplateX>857</TemplateX>
+<TemplateY>518</TemplateY>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>177</X>
+<Y>78</Y>
+<Touch>False</Touch>
+<Text><![CDATA["{Enter}"]]></Text>
+<TextType><![CDATA[False]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[true]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfcajdjcgifcc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[주소선택]]></Desc>
+<Nodes>
+<Node type="ObjSelect" expand="False">
+<ObjTagName><![CDATA["sidoCd"]]></ObjTagName>
+<ObjLocator><![CDATA[Id]]></ObjLocator>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<ObjSelectValue><![CDATA["경기도"]]></ObjSelectValue>
+<ObjSelectType><![CDATA[Text]]></ObjSelectType>
+<If><![CDATA[true]]></If>
+<ID>bfcajdjcjhcbd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[자치단체 선택]]></Desc>
+</Node>
+<Node type="ObjSelect" expand="False">
+<ObjTagName><![CDATA["sigunguCd"]]></ObjTagName>
+<ObjLocator><![CDATA[Id]]></ObjLocator>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<ObjSelectValue><![CDATA["하남시"]]></ObjSelectValue>
+<ObjSelectType><![CDATA[Text]]></ObjSelectType>
+<If><![CDATA[true]]></If>
+<ID>bfcajeacccdgi</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[시군구]]></Desc>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</Node>
+<Exceptions type="Exceptions" expand="False">
+<ID>bfbfaceehfifg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+</Nodes>
+</Exceptions>
+<GlobalNodes type="GlobalNodes" expand="True">
+<ID>bfbfaceehfifg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Nodes>
+<Node type="GlobalNode" expand="True">
+<NodeName>NewAppObjectOpen</NodeName>
+<ID>bfbfacfbjcgeg</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[새로운 App을 Object방식으로 Open]]></Desc>
+<Nodes>
+<Node type="Sequence" expand="True">
+<If><![CDATA[$NodeArg.0$ == "IE"]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbfacfbjcggc</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[InternetExplorer]]></Desc>
+<Nodes>
+<Node type="ObjStartDriver" expand="False">
+<DriverName>InternetExplorer</DriverName>
+<StartURL><![CDATA[$NodeArg.1$ ]]></StartURL>
+<Parameter><![CDATA[]]></Parameter>
+<DriverId><![CDATA["ie1"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfacfbjcghh</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[InternetExplorer 드라이버 실행]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Sequence" expand="True">
+<If><![CDATA[$NodeArg.0$ == "CH"]]></If>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<ID>bfbfacfbjcgjd</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Chrome ]]></Desc>
+<Nodes>
+<Node type="ObjStartDriver" expand="False">
+<DriverName>Chrome</DriverName>
+<StartURL><![CDATA[$NodeArg.1$ ]]></StartURL>
+<Parameter><![CDATA[]]></Parameter>
+<DriverId><![CDATA["chr"]]></DriverId>
+<If><![CDATA[true]]></If>
+<ID>bfbfacfbjchai</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[Chrome 드라이버 실행]]></Desc>
+</Node>
+</Nodes>
+</Node>
+<Node type="Write" expand="False">
+<If><![CDATA[true]]></If>
+<ID>bfbfacfbjchce</ID>
+<Checked>True</Checked>
+<SaveImagesOnResult>True</SaveImagesOnResult>
+<OnErrorExit>True</OnErrorExit>
+<Desc><![CDATA[]]></Desc>
+<Timeout>30000</Timeout>
+<Interval>500</Interval>
+<Method></Method>
+<Param><![CDATA[]]></Param>
+<Check></Check>
+<CheckParam><![CDATA[]]></CheckParam>
+<GlobalExceptionPropagation>True</GlobalExceptionPropagation>
+<GlobalExceptionUse>False</GlobalExceptionUse>
+<CaptureType>RawAPI</CaptureType>
+<X>422</X>
+<Y>496</Y>
+<Touch>False</Touch>
+<Text><![CDATA[$NodeArg.0$ + "{Enter}"]]></Text>
+<TextType><![CDATA[False]]></TextType>
+<KeyRelease><![CDATA[True]]></KeyRelease>
+<WriteSleepTime><![CDATA[10]]></WriteSleepTime>
+</Node>
+</Nodes>
+</Node>
+</Nodes>
+</GlobalNodes>
+<Data>
+<Lists>
+</Lists>
+<Tables>
+</Tables>
+</Data>
+</Script>
