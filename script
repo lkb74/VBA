@@ -1,0 +1,43 @@
+Sub Do_Event()
+Dim a As Integer, b As Integer
+    a = 10: b = 0        Do Until a = b        b = b + 1            DoEvents    Loop    Debug.Print "A=" & a, "B=" & b    
+End Sub
+
+Sub 출고일자()
+Dim i As Integer
+For i = 2 To 10    If DateTime.DateValue(DateTime.Now) < Range("B" & i).Value Then        Range("C" & i).Select        Selection.Value = Range("B" & i).Value + 1    End If
+Next
+End Sub
+
+Sub ReadFile()
+    Dim f As String, s As String    Dim i As Integer        i = 2    f = "C:\test\\금융전문.txt"    Open f For Input As #1        Do While Not EOF(1)            Line Input #1, s               ' Debug.Print s              ' Range("d3").Value = s                              Cells(i, 4).Value = s                i = i + 1                       Loop    Close #1    End Sub
+
+Sub WriteFile()
+    Dim f As String, temp As String    Dim i As Integer        f = "C:\test\\금융전문.txt"        Open f For Output As #1        For i = 1 To 10            temp = CStr(i) & vbCr            Print #1, temp        Next    Close #1End Sub
+
+Sub 엑셀파일읽기_합치기()
+    Dim f(2) As String    Dim handle As Long    Dim a As Range, b As Range    Dim ai As Long, bi As Long, i As Integer                
+    f(1) = "c:\test\file1.xlsx"    f(2) = "c:\test\file2.xlsx"        
+    Set a = ThisWorkbook.Sheets(1).Range("E2")        
+    ai = 0        
+    For i = 1 To 2            
+    Workbooks.Open Filename:=f(i)        
+    handle = Workbooks.Count                
+    Set b = Workbooks(handle).Sheets(1).Range("a1")        
+    bi = 0                
+    Do While b.Offset(bi, 0) <> ""            
+    a.Offset(ai, 0) = b.Offset(bi, 0)                
+    ai = ai + 1                
+    bi = bi + 1            
+    Loop           
+    Workbooks(handle).Close savechanges:=False       
+    Next i    
+    End Sub
+
+Sub 엑셀파일만들기()
+   Dim handle As Long    Dim f As String                Workbooks.Add        handle = Workbooks.Count              '  Workbooks(handle).Sheets(1).Cells(1, 1) = "VBA 나도 한다"                Workbooks(handle).Activate                Cells(2, 1) = "내가 했다2"                    f = "c:\test\lkb_create.xlsx"                Application.DisplayAlerts = False        Workbooks(handle).SaveAs Filename:=f        Workbooks(handle).Close savechanges:=True        Application.DisplayAlerts = True             End Sub
+
+Sub 텍스트파일_Read()
+    Dim f As String        f = "C:\test\\금융전문.txt"
+    Workbooks.OpenText Filename:=f, DataType:=xlDelimited, comma:=True      'Workbooks.Open  ' Workbooks.Open Filename:=f, comma:=True          
+End Sub
