@@ -41,3 +41,13 @@ Sub 텍스트파일_Read()
     Dim f As String        f = "C:\test\\금융전문.txt"
     Workbooks.OpenText Filename:=f, DataType:=xlDelimited, comma:=True      'Workbooks.Open  ' Workbooks.Open Filename:=f, comma:=True          
 End Sub
+
+
+Private Sub cmdGetFiles_Click()
+    Dim f1 As String, f2 As String    Dim r As Range    Dim row As Long        f1 = "c:\windows"        If Right(f1, 1) <> "\" Then f1 = f1 & "\"        f2 = Dir(f1, vbDirectory)        If f2 = "" Then        MsgBox "존재하지 않는 경로명입니다. ", , "경로명 오류"        Exit Sub     End If          Set r = ThisWorkbook.Sheets(2).Range("a1")     Cells.Clear          Cells(1, 1) = "파일/폴더"     Cells(1, 2) = "이름"     Cells(1, 3) = "크기(bytes)"     Cells(1, 4) = "날짜/시간"
+        row = row + 1            Do While f2 <> ""        If f2 <> "." And f2 <> ".." Then            r.Offset(row, 1).Value = f2            r.Offset(row, 2).Value = FileLen(f1 & f2)            r.Offset(row, 3).Value = FileDateTime(f1 & f2)             If GetAttr(f1 & f2) = vbDirectory Then                 r.Offset(row, 0).Value = "Folder"              Else                 r.Offset(row, 0).Value = "File"              End If                    row = row + 1        End If        f2 = Dir    
+        Loop                
+        End Sub
+        
+        
+        
